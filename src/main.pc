@@ -1,0 +1,88 @@
+{
+  "id": "50453bf92",
+  "name": "module",
+  "version": "0.0.5",
+  "children": [
+    {
+      "label": "Website",
+      "is": "div",
+      "style": {},
+      "attributes": {},
+      "id": "50453bf91",
+      "name": "component",
+      "children": [
+        {
+          "id": "11558dee113",
+          "is": "11558dee112",
+          "name": "component-instance",
+          "attributes": {},
+          "style": {},
+          "children": [],
+          "metadata": {},
+          "variant": {}
+        }
+      ],
+      "metadata": {
+        "bounds": {
+          "left": 0,
+          "right": 600,
+          "top": -2,
+          "bottom": 398
+        }
+      },
+      "variant": {}
+    },
+    {
+      "label": "Header",
+      "is": "div",
+      "style": {
+        "box-sizing": "border-box",
+        "display": "block",
+        "font-family": "--11558dee137",
+        "background": "--11558dee243"
+      },
+      "attributes": {},
+      "id": "11558dee112",
+      "name": "component",
+      "children": [
+        {
+          "id": "11558dee129",
+          "name": "text",
+          "label": "Text",
+          "value": "Tandem",
+          "style": {},
+          "children": [],
+          "metadata": {}
+        }
+      ],
+      "metadata": {
+        "bounds": {
+          "left": 610,
+          "top": 0,
+          "right": 1210,
+          "bottom": 50
+        }
+      },
+      "variant": {}
+    },
+    {
+      "id": "11558dee137",
+      "name": "variable",
+      "value": "Avenir",
+      "label": "Default",
+      "type": "font",
+      "children": [],
+      "metadata": {}
+    },
+    {
+      "id": "11558dee243",
+      "name": "variable",
+      "value": "rgba(33, 122, 10, 1)",
+      "label": "Blue 1",
+      "type": "color",
+      "children": [],
+      "metadata": {}
+    }
+  ],
+  "metadata": {}
+}
