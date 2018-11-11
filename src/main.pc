@@ -1,217 +1,176 @@
 {
-  "id": "50453bf92",
+  "id": "83e764632",
   "name": "module",
   "version": "0.0.5",
   "children": [
     {
-      "id": "11558dee137",
-      "name": "variable",
-      "value": "Avenir",
-      "label": "Default",
-      "type": "font",
-      "children": [],
-      "metadata": {}
-    },
-    {
-      "id": "11558dee243",
-      "name": "variable",
-      "value": "rgba(33, 122, 10, 1)",
-      "label": "Blue 1",
-      "type": "color",
-      "children": [],
-      "metadata": {}
-    },
-    {
       "label": "Website",
       "is": "div",
-      "style": {
-        "box-sizing": "border-box",
-        "display": "block"
-      },
+      "style": {},
       "attributes": {},
-      "id": "ad4bff7448",
+      "id": "83e764631",
       "name": "component",
       "children": [
         {
-          "id": "ad4bff74358",
-          "label": "Element",
+          "id": "bdb0841818",
+          "label": "Header",
           "is": "div",
           "name": "element",
           "attributes": {},
           "style": {
             "box-sizing": "border-box",
-            "display": "block",
-            "margin-left": "auto",
-            "margin-right": "auto",
-            "width": "400px",
-            "margin-top": "60px",
-            "text-align": "center"
+            "display": "block"
           },
           "children": [
             {
-              "id": "ad4bff7459",
-              "label": "logo",
+              "id": "bdb08418100",
+              "label": "Elevator",
               "is": "div",
               "name": "element",
               "attributes": {},
               "style": {
                 "box-sizing": "border-box",
-                "display": "block",
-                "width": "200px"
+                "display": "inline-block"
               },
               "children": [
                 {
-                  "id": "ad4bff74104",
-                  "is": "img",
-                  "name": "element",
-                  "attributes": {
-                    "src": "./assets/logo-black.png"
-                  },
-                  "style": {
-                    "display": "block",
-                    "width": "100%"
-                  },
+                  "id": "bdb0841885",
+                  "is": "bdb0841881",
+                  "label": "logo",
+                  "name": "component-instance",
+                  "attributes": {},
+                  "style": {},
                   "children": [],
-                  "metadata": {}
-                }
-              ],
-              "metadata": {},
-              "styleMixins": {
-                "ad4bff74426": {
-                  "priority": 0
-                }
-              }
-            },
-            {
-              "id": "ad4bff74494",
-              "label": "description",
-              "is": "p",
-              "name": "element",
-              "attributes": {},
-              "style": {
-                "box-sizing": "border-box",
-                "display": "block",
-                "text-align": "unset",
-                "width": "300px"
-              },
-              "children": [
+                  "metadata": {
+                    "bounds": {
+                      "left": 157,
+                      "top": -122,
+                      "right": 257,
+                      "bottom": -22
+                    }
+                  },
+                  "variant": {}
+                },
                 {
-                  "id": "ad4bff74523",
+                  "id": "bdb0841892",
                   "name": "text",
                   "label": "Text",
-                  "value": "Tandem is a visual editor for building web applications.",
-                  "style": {
-                    "font-family": "Avenir Next",
-                    "text-align": "center",
-                    "display": "block"
-                  },
+                  "value": "A visual editor for web components",
+                  "style": {},
                   "children": [],
-                  "metadata": {
-                    "bounds": {
-                      "left": 600.857511604066,
-                      "top": -213.51436736613127,
-                      "right": 700.857511604066,
-                      "bottom": -113.51436736613127
+                  "metadata": {},
+                  "styleMixins": {
+                    "bdb0841896": {
+                      "priority": 0
                     }
                   }
                 }
               ],
-              "metadata": {},
-              "styleMixins": {
-                "ad4bff74426": {
-                  "priority": 0
-                },
-                "ad4bff741861": {
-                  "priority": 1
-                }
-              }
-            },
-            {
-              "id": "ad4bff741540",
-              "label": "cta",
-              "is": "div",
-              "name": "element",
-              "attributes": {},
-              "style": {
-                "box-sizing": "border-box",
-                "display": "inline-flex"
-              },
-              "children": [
-                {
-                  "id": "ad4bff741550",
-                  "label": "input",
-                  "is": "input",
-                  "name": "element",
-                  "attributes": {},
-                  "style": {
-                    "box-sizing": "border-box",
-                    "display": "inline-block",
-                    "border-bottom-left-radius": "2px",
-                    "border-top-left-radius": "2px",
-                    "border": "1px solid rgba(200, 200, 200, 1)",
-                    "padding-top": "4px",
-                    "padding-bottom": "4px",
-                    "padding-right": "8px",
-                    "padding-left": "8px"
-                  },
-                  "children": [],
-                  "metadata": {}
-                },
-                {
-                  "id": "ad4bff741681",
-                  "label": "Element",
-                  "is": "div",
-                  "name": "element",
-                  "attributes": {},
-                  "style": {
-                    "box-sizing": "border-box",
-                    "display": "inline-block",
-                    "background": "rgba(200, 200, 200, 1)",
-                    "padding-left": "12px",
-                    "padding-right": "12px",
-                    "border-top-right-radius": "2px",
-                    "border-bottom-right-radius": "2px"
-                  },
-                  "children": [
-                    {
-                      "id": "ad4bff741836",
-                      "name": "text",
-                      "label": "Text",
-                      "value": "sign up",
-                      "style": {
-                        "font-family": "Avenir Next",
-                        "font-size": "12px"
-                      },
-                      "children": [],
-                      "metadata": {},
-                      "styleMixins": {
-                        "ad4bff741861": {
-                          "priority": 0
-                        }
-                      }
-                    }
-                  ],
-                  "metadata": {
-                    "bounds": {
-                      "left": 564.3440507020248,
-                      "top": 315.8031752343442,
-                      "right": 664.3440507020248,
-                      "bottom": 415.8031752343442
-                    }
-                  }
-                }
-              ],
-              "metadata": {},
-              "styleMixins": {
-                "ad4bff74426": {
-                  "priority": 0
+              "metadata": {
+                "bounds": {
+                  "left": 219.00088225701347,
+                  "top": -116.51946290989366,
+                  "right": 319.0008822570135,
+                  "bottom": -16.51946290989366
                 }
               }
             }
           ],
+          "metadata": {}
+        },
+        {
+          "id": "bdb0841820",
+          "label": "Content",
+          "is": "div",
+          "name": "element",
+          "attributes": {},
+          "style": {
+            "box-sizing": "border-box",
+            "display": "block"
+          },
+          "children": [
+            {
+              "id": "816a553232",
+              "label": "Design",
+              "is": "div",
+              "name": "element",
+              "attributes": {},
+              "style": {
+                "box-sizing": "border-box",
+                "display": "block"
+              },
+              "children": [],
+              "metadata": {}
+            },
+            {
+              "id": "816a553230",
+              "label": "Code",
+              "is": "div",
+              "name": "element",
+              "attributes": {},
+              "style": {
+                "box-sizing": "border-box",
+                "display": "block"
+              },
+              "children": [],
+              "metadata": {}
+            }
+          ],
+          "metadata": {}
+        }
+      ],
+      "metadata": {
+        "bounds": {
+          "left": 0,
+          "right": 2560,
+          "top": 0,
+          "bottom": 1600
+        }
+      },
+      "variant": {}
+    },
+    {
+      "label": "logo",
+      "is": "div",
+      "style": {
+        "box-sizing": "border-box",
+        "display": "flex",
+        "align-items": "center",
+        "margin-left": "8px",
+        "font-size": "42px"
+      },
+      "attributes": {},
+      "id": "bdb0841881",
+      "name": "component",
+      "children": [
+        {
+          "id": "bdb0841880",
+          "label": "logo",
+          "is": "img",
+          "name": "element",
+          "attributes": {
+            "src": "./assets/icon.png"
+          },
+          "style": {
+            "display": "inline-block",
+            "height": "1em",
+            "padding-right": "4px"
+          },
+          "children": [],
+          "metadata": {}
+        },
+        {
+          "id": "bdb0841879",
+          "name": "text",
+          "label": "Text",
+          "value": "Tandem",
+          "style": {
+            "font-weight": "500"
+          },
+          "children": [],
           "metadata": {},
           "styleMixins": {
-            "ad4bff74426": {
+            "bdb0841896": {
               "priority": 0
             }
           }
@@ -219,56 +178,30 @@
       ],
       "metadata": {
         "bounds": {
-          "left": 270,
-          "top": -138,
-          "right": 759,
-          "bottom": 268
+          "left": 22,
+          "top": -200,
+          "right": 303,
+          "bottom": -100
         }
       },
       "variant": {}
     },
     {
-      "id": "ad4bff74426",
-      "label": "centered style",
+      "id": "bdb0841896",
       "name": "style-mixin",
+      "label": "Base font",
       "style": {
-        "box-sizing": "border-box",
-        "display": "block",
-        "margin-left": "auto",
-        "margin-right": "auto"
+        "font-family": "Avenir Next"
       },
-      "targetType": "element",
-      "children": [],
-      "metadata": {
-        "bounds": {
-          "left": 274,
-          "top": -480,
-          "right": 374,
-          "bottom": -380
-        }
-      }
-    },
-    {
-      "id": "ad4bff741861",
-      "name": "style-mixin",
-      "label": "base font",
-      "style": {
-        "text-align": "left"
-      },
-      "styleMixins": {
-        "ad4bff74426": {
-          "priority": 0
-        }
-      },
-      "value": "description text style",
+      "value": "Base font",
       "targetType": "text",
       "children": [],
       "metadata": {
         "bounds": {
-          "left": 391,
-          "top": -491,
-          "right": 691,
-          "bottom": -447
+          "left": 46,
+          "top": -316,
+          "right": 146,
+          "bottom": -286
         }
       }
     }
