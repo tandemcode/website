@@ -4,6 +4,26 @@
   "version": "0.0.5",
   "children": [
     {
+      "id": "97080f5483",
+      "is": "83e764631",
+      "label": "Mobile",
+      "name": "component-instance",
+      "attributes": {},
+      "style": {},
+      "children": [],
+      "metadata": {
+        "bounds": {
+          "left": 2330,
+          "top": 10,
+          "right": 2759,
+          "bottom": 2445
+        }
+      },
+      "variant": {
+        "97080f54235": false
+      }
+    },
+    {
       "label": "Website",
       "is": "div",
       "style": {},
@@ -23,64 +43,530 @@
           },
           "children": [
             {
-              "id": "bdb08418100",
+              "id": "761e4a9437",
+              "label": "Navigator",
+              "is": "div",
+              "name": "element",
+              "attributes": {},
+              "style": {
+                "display": "flex",
+                "width": "100%",
+                "align-items": "center",
+                "justify-content": "space-between",
+                "padding-right": "24px",
+                "box-sizing": "border-box",
+                "padding-left": "24px",
+                "padding-bottom": "24px",
+                "padding-top": "24px",
+                "flex-wrap": "wrap"
+              },
+              "children": [
+                {
+                  "id": "97080f54240",
+                  "label": "Logo Outer",
+                  "is": "div",
+                  "name": "element",
+                  "attributes": {},
+                  "style": {},
+                  "children": [
+                    {
+                      "id": "bdb0841885",
+                      "is": "bdb0841881",
+                      "label": "logo",
+                      "name": "component-instance",
+                      "attributes": {},
+                      "style": {},
+                      "children": [],
+                      "metadata": {
+                        "bounds": {
+                          "left": 157,
+                          "top": -122,
+                          "right": 257,
+                          "bottom": -22
+                        }
+                      },
+                      "variant": {}
+                    }
+                  ],
+                  "metadata": {}
+                },
+                {
+                  "id": "97080f54217",
+                  "label": "Links",
+                  "is": "div",
+                  "name": "element",
+                  "attributes": {},
+                  "style": {
+                    "white-space": "nowrap"
+                  },
+                  "children": [
+                    {
+                      "id": "97080f54226",
+                      "label": "Community",
+                      "is": "97080f54201",
+                      "name": "component-instance",
+                      "attributes": {},
+                      "style": {
+                        "box-sizing": "border-box",
+                        "display": "inline-block"
+                      },
+                      "children": [
+                        {
+                          "id": "97080f54227",
+                          "variantId": null,
+                          "propertyName": "text",
+                          "targetIdPath": [
+                            "97080f54200"
+                          ],
+                          "value": "Community\n",
+                          "name": "override",
+                          "children": []
+                        }
+                      ],
+                      "metadata": {},
+                      "variant": {}
+                    },
+                    {
+                      "id": "97080f54162",
+                      "label": "Community",
+                      "is": "97080f54201",
+                      "name": "component-instance",
+                      "attributes": {},
+                      "style": {
+                        "box-sizing": "border-box",
+                        "display": "inline-block",
+                        "margin-right": "24px"
+                      },
+                      "children": [
+                        {
+                          "id": "97080f54208",
+                          "variantId": null,
+                          "propertyName": "text",
+                          "targetIdPath": [
+                            "97080f54200"
+                          ],
+                          "value": "GitHub",
+                          "name": "override",
+                          "children": []
+                        }
+                      ],
+                      "metadata": {},
+                      "variant": {}
+                    },
+                    {
+                      "id": "97080f54236",
+                      "name": "variant-trigger",
+                      "targetVariantId": "97080f54235",
+                      "source": {
+                        "type": 0,
+                        "mediaQueryId": "97080f54234"
+                      },
+                      "children": [],
+                      "metadata": {}
+                    }
+                  ],
+                  "metadata": {}
+                }
+              ],
+              "metadata": {}
+            },
+            {
+              "id": "761e4a9448",
               "label": "Elevator",
               "is": "div",
               "name": "element",
               "attributes": {},
               "style": {
                 "box-sizing": "border-box",
-                "display": "inline-block"
+                "display": "block"
               },
               "children": [
                 {
-                  "id": "bdb0841885",
-                  "is": "bdb0841881",
-                  "label": "logo",
-                  "name": "component-instance",
+                  "id": "761e4a9450",
+                  "label": "Center",
+                  "is": "div",
+                  "name": "element",
                   "attributes": {},
-                  "style": {},
-                  "children": [],
-                  "metadata": {
-                    "bounds": {
-                      "left": 157,
-                      "top": -122,
-                      "right": 257,
-                      "bottom": -22
-                    }
+                  "style": {
+                    "box-sizing": "border-box",
+                    "display": "flex",
+                    "width": "100%",
+                    "margin-bottom": "24px",
+                    "margin-top": "24px",
+                    "text-align": "center",
+                    "flex-direction": "column",
+                    "align-items": "center"
                   },
-                  "variant": {}
-                },
-                {
-                  "id": "bdb0841892",
-                  "name": "text",
-                  "label": "Text",
-                  "value": "A visual editor for web components",
-                  "style": {},
-                  "children": [],
-                  "metadata": {},
-                  "styleMixins": {
-                    "bdb0841896": {
-                      "priority": 0
+                  "children": [
+                    {
+                      "id": "97080f5438",
+                      "label": "outer",
+                      "is": "div",
+                      "name": "element",
+                      "attributes": {},
+                      "style": {
+                        "display": "inline-block",
+                        "background": "rgba(1, 1, 1, 1)",
+                        "padding-left": "24px",
+                        "padding-top": "24px",
+                        "padding-right": "24px",
+                        "padding-bottom": "24px",
+                        "flex-grow": "0",
+                        "margin-bottom": "24px",
+                        "position": "relative"
+                      },
+                      "children": [
+                        {
+                          "id": "97080f5450",
+                          "label": "resizers",
+                          "is": "div",
+                          "name": "element",
+                          "attributes": {},
+                          "style": {
+                            "position": "absolute",
+                            "top": "0px",
+                            "left": "0px",
+                            "width": "100%",
+                            "height": "100%"
+                          },
+                          "children": [
+                            {
+                              "id": "97080f5457",
+                              "is": "97080f5443",
+                              "label": "top left",
+                              "name": "component-instance",
+                              "attributes": {},
+                              "style": {
+                                "position": "absolute"
+                              },
+                              "children": [],
+                              "metadata": {
+                                "bounds": {
+                                  "left": 1838,
+                                  "top": -235,
+                                  "right": 1938,
+                                  "bottom": -135
+                                }
+                              },
+                              "variant": {}
+                            },
+                            {
+                              "id": "97080f5460",
+                              "is": "97080f5443",
+                              "label": "top",
+                              "name": "component-instance",
+                              "attributes": {},
+                              "style": {
+                                "position": "absolute",
+                                "left": "50%"
+                              },
+                              "children": [],
+                              "metadata": {
+                                "bounds": {
+                                  "left": 1838,
+                                  "top": -235,
+                                  "right": 1938,
+                                  "bottom": -135
+                                }
+                              },
+                              "variant": {}
+                            },
+                            {
+                              "id": "97080f5463",
+                              "is": "97080f5443",
+                              "label": "top right",
+                              "name": "component-instance",
+                              "attributes": {},
+                              "style": {
+                                "position": "absolute",
+                                "left": "100%"
+                              },
+                              "children": [],
+                              "metadata": {
+                                "bounds": {
+                                  "left": 1838,
+                                  "top": -235,
+                                  "right": 1938,
+                                  "bottom": -135
+                                }
+                              },
+                              "variant": {}
+                            },
+                            {
+                              "id": "97080f5466",
+                              "is": "97080f5443",
+                              "label": "right",
+                              "name": "component-instance",
+                              "attributes": {},
+                              "style": {
+                                "position": "absolute",
+                                "left": "100%",
+                                "top": "50%"
+                              },
+                              "children": [],
+                              "metadata": {
+                                "bounds": {
+                                  "left": 1838,
+                                  "top": -235,
+                                  "right": 1938,
+                                  "bottom": -135
+                                }
+                              },
+                              "variant": {}
+                            },
+                            {
+                              "id": "97080f5472",
+                              "is": "97080f5443",
+                              "label": "bottom right",
+                              "name": "component-instance",
+                              "attributes": {},
+                              "style": {
+                                "position": "absolute",
+                                "left": "100%",
+                                "top": "100%"
+                              },
+                              "children": [],
+                              "metadata": {
+                                "bounds": {
+                                  "left": 1838,
+                                  "top": -235,
+                                  "right": 1938,
+                                  "bottom": -135
+                                }
+                              },
+                              "variant": {}
+                            },
+                            {
+                              "id": "97080f5475",
+                              "is": "97080f5443",
+                              "label": "bottom",
+                              "name": "component-instance",
+                              "attributes": {},
+                              "style": {
+                                "position": "absolute",
+                                "left": "50%",
+                                "top": "100%"
+                              },
+                              "children": [],
+                              "metadata": {
+                                "bounds": {
+                                  "left": 1838,
+                                  "top": -235,
+                                  "right": 1938,
+                                  "bottom": -135
+                                }
+                              },
+                              "variant": {}
+                            },
+                            {
+                              "id": "97080f5478",
+                              "is": "97080f5443",
+                              "label": "bottom left",
+                              "name": "component-instance",
+                              "attributes": {},
+                              "style": {
+                                "position": "absolute",
+                                "left": "0%",
+                                "top": "100%"
+                              },
+                              "children": [],
+                              "metadata": {
+                                "bounds": {
+                                  "left": 1838,
+                                  "top": -235,
+                                  "right": 1938,
+                                  "bottom": -135
+                                }
+                              },
+                              "variant": {}
+                            },
+                            {
+                              "id": "97080f5445",
+                              "is": "97080f5443",
+                              "label": "left",
+                              "name": "component-instance",
+                              "attributes": {},
+                              "style": {
+                                "position": "absolute",
+                                "left": "0%",
+                                "top": "50%"
+                              },
+                              "children": [],
+                              "metadata": {
+                                "bounds": {
+                                  "left": 1838,
+                                  "top": -235,
+                                  "right": 1938,
+                                  "bottom": -135
+                                }
+                              },
+                              "variant": {}
+                            }
+                          ],
+                          "metadata": {}
+                        },
+                        {
+                          "id": "761e4a9456",
+                          "name": "text",
+                          "label": "Hook",
+                          "value": "Say goodby to handwritten HTML & CSS.",
+                          "style": {
+                            "color": "rgba(255, 255, 255, 1)",
+                            "font-size": "42px"
+                          },
+                          "children": [],
+                          "metadata": {},
+                          "styleMixins": {
+                            "761e4a9458": {
+                              "priority": 0
+                            }
+                          }
+                        }
+                      ],
+                      "metadata": {}
+                    },
+                    {
+                      "id": "97080f5481",
+                      "name": "text",
+                      "label": "Short Desc",
+                      "value": "Tandem is a free & open source editor for visually creating web components.",
+                      "style": {
+                        "font-size": "24px"
+                      },
+                      "children": [],
+                      "metadata": {},
+                      "styleMixins": {
+                        "761e4a9458": {
+                          "priority": 0
+                        }
+                      }
+                    },
+                    {
+                      "id": "97080f54117",
+                      "label": "ctra",
+                      "is": "div",
+                      "name": "element",
+                      "attributes": {},
+                      "style": {
+                        "box-sizing": "border-box",
+                        "display": "inline-block",
+                        "margin-top": "24px"
+                      },
+                      "children": [
+                        {
+                          "id": "97080f54120",
+                          "name": "text",
+                          "label": "Text",
+                          "value": "Sign up for early access",
+                          "style": {
+                            "font-size": "18px"
+                          },
+                          "children": [],
+                          "metadata": {},
+                          "styleMixins": {
+                            "761e4a9458": {
+                              "priority": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "97080f54127",
+                          "label": "Element",
+                          "is": "div",
+                          "name": "element",
+                          "attributes": {},
+                          "style": {
+                            "box-sizing": "border-box",
+                            "display": "flex",
+                            "text-align": "left",
+                            "margin-top": "8px"
+                          },
+                          "children": [
+                            {
+                              "id": "97080f54134",
+                              "is": "97080f54133",
+                              "label": "Input",
+                              "name": "component-instance",
+                              "attributes": {
+                                "placeholder": "email"
+                              },
+                              "style": {
+                                "border-left": "1px solid rgba(1, 1, 1, 1)",
+                                "border-top": "1px solid rgba(1, 1, 1, 1)",
+                                "border-right": "1px solid rgba(1, 1, 1, 1)",
+                                "border-bottom": "1px solid rgba(1, 1, 1, 1)",
+                                "border-bottom-left-radius": "2px",
+                                "border-bottom-right-radius": "0px",
+                                "border-top-right-radius": "0px",
+                                "font-size": "24px",
+                                "box-sizing": "border-box",
+                                "padding-top": "2px",
+                                "padding-right": "6px",
+                                "padding-bottom": "2px"
+                              },
+                              "children": [],
+                              "metadata": {},
+                              "variant": {}
+                            },
+                            {
+                              "id": "97080f54140",
+                              "label": "Element",
+                              "is": "97080f54125",
+                              "name": "component-instance",
+                              "attributes": {},
+                              "style": {
+                                "box-sizing": "border-box",
+                                "display": "inline-block",
+                                "border-top-left-radius": "0px",
+                                "border-bottom-left-radius": "0px",
+                                "font-size": "24px"
+                              },
+                              "children": [
+                                {
+                                  "id": "97080f54254",
+                                  "propertyName": "style",
+                                  "targetIdPath": [
+                                    "97080f54145"
+                                  ],
+                                  "value": {
+                                    "font-size": "24p"
+                                  },
+                                  "name": "override",
+                                  "children": []
+                                },
+                                {
+                                  "id": "97080f54255",
+                                  "variantId": null,
+                                  "propertyName": "text",
+                                  "targetIdPath": [
+                                    "97080f54145"
+                                  ],
+                                  "value": "Sign up",
+                                  "name": "override",
+                                  "children": []
+                                }
+                              ],
+                              "metadata": {},
+                              "variant": {}
+                            }
+                          ],
+                          "metadata": {}
+                        }
+                      ],
+                      "metadata": {}
                     }
-                  }
+                  ],
+                  "metadata": {}
                 }
               ],
-              "metadata": {
-                "bounds": {
-                  "left": 219.00088225701347,
-                  "top": -116.51946290989366,
-                  "right": 319.0008822570135,
-                  "bottom": -16.51946290989366
-                }
-              }
+              "metadata": {}
             }
           ],
           "metadata": {}
         },
         {
-          "id": "bdb0841820",
-          "label": "Content",
+          "id": "97080f54114",
+          "label": "content",
           "is": "div",
           "name": "element",
           "attributes": {},
@@ -88,42 +574,94 @@
             "box-sizing": "border-box",
             "display": "block"
           },
-          "children": [
-            {
-              "id": "816a553232",
-              "label": "Design",
-              "is": "div",
-              "name": "element",
-              "attributes": {},
-              "style": {
-                "box-sizing": "border-box",
-                "display": "block"
-              },
-              "children": [],
-              "metadata": {}
-            },
-            {
-              "id": "816a553230",
-              "label": "Code",
-              "is": "div",
-              "name": "element",
-              "attributes": {},
-              "style": {
-                "box-sizing": "border-box",
-                "display": "block"
-              },
-              "children": [],
-              "metadata": {}
-            }
-          ],
+          "children": [],
           "metadata": {}
+        },
+        {
+          "id": "97080f54235",
+          "name": "variant",
+          "label": "Mobile",
+          "isDefault": false,
+          "children": [],
+          "metadata": {}
+        },
+        {
+          "id": "97080f54237",
+          "variantId": "97080f54235",
+          "propertyName": "style",
+          "targetIdPath": [
+            "97080f54217"
+          ],
+          "value": {
+            "display": "block",
+            "width": "100%",
+            "text-align": "center",
+            "margin-top": "12px"
+          },
+          "name": "override",
+          "children": []
+        },
+        {
+          "id": "97080f54238",
+          "variantId": "97080f54235",
+          "propertyName": "style",
+          "targetIdPath": [
+            "761e4a9437"
+          ],
+          "value": {
+            "text-align": "left"
+          },
+          "name": "override",
+          "children": []
+        },
+        {
+          "id": "97080f54239",
+          "variantId": "97080f54235",
+          "propertyName": "style",
+          "targetIdPath": [
+            "bdb0841885"
+          ],
+          "value": {
+            "width": "unset",
+            "text-align": "left"
+          },
+          "name": "override",
+          "children": []
+        },
+        {
+          "id": "97080f54251",
+          "variantId": "97080f54235",
+          "propertyName": "style",
+          "targetIdPath": [
+            "97080f54240"
+          ],
+          "value": {
+            "display": "block",
+            "width": "100%",
+            "text-align": "center"
+          },
+          "name": "override",
+          "children": []
+        },
+        {
+          "id": "97080f54253",
+          "variantId": "97080f54235",
+          "propertyName": "style",
+          "targetIdPath": [
+            "97080f54162"
+          ],
+          "value": {
+            "margin-right": "0px"
+          },
+          "name": "override",
+          "children": []
         }
       ],
       "metadata": {
         "bounds": {
           "left": 0,
-          "right": 2560,
           "top": 0,
+          "right": 2112,
           "bottom": 1600
         }
       },
@@ -134,7 +672,7 @@
       "is": "div",
       "style": {
         "box-sizing": "border-box",
-        "display": "flex",
+        "display": "inline-flex",
         "align-items": "center",
         "margin-left": "8px",
         "font-size": "42px"
@@ -154,7 +692,8 @@
           "style": {
             "display": "inline-block",
             "height": "1em",
-            "padding-right": "4px"
+            "padding-right": "4px",
+            "font-size": "42px"
           },
           "children": [],
           "metadata": {}
@@ -165,13 +704,16 @@
           "label": "Text",
           "value": "Tandem",
           "style": {
-            "font-weight": "500"
+            "font-size": "inherit"
           },
           "children": [],
           "metadata": {},
           "styleMixins": {
             "bdb0841896": {
               "priority": 0
+            },
+            "761e4a9458": {
+              "priority": 1
             }
           }
         }
@@ -187,23 +729,47 @@
       "variant": {}
     },
     {
-      "id": "bdb0841896",
-      "name": "style-mixin",
-      "label": "Base font",
+      "id": "97080f5435",
+      "name": "variable",
+      "value": "rgba(95, 95, 95, 1)",
+      "label": "grey 1",
+      "type": "color",
+      "children": [],
+      "metadata": {}
+    },
+    {
+      "label": "resizer",
+      "is": "div",
       "style": {
-        "font-family": "Avenir Next"
+        "box-sizing": "border-box",
+        "display": "block",
+        "box-shadow": "inset  0px 0px 0px 2px rgba(0,0,0,1)",
+        "background": "rgba(255, 255, 255, 1)",
+        "width": "10px",
+        "height": "10px",
+        "transform": "translate(-50%, -50%)"
       },
-      "value": "Base font",
-      "targetType": "text",
+      "attributes": {},
+      "id": "97080f5443",
+      "name": "component",
       "children": [],
       "metadata": {
         "bounds": {
-          "left": 46,
-          "top": -316,
-          "right": 146,
-          "bottom": -286
+          "left": 1085,
+          "top": -244,
+          "right": 1185,
+          "bottom": -144
         }
-      }
+      },
+      "variant": {}
+    },
+    {
+      "id": "97080f54234",
+      "name": "media-query",
+      "label": "Mobile",
+      "maxWidth": "500",
+      "children": [],
+      "metadata": {}
     }
   ],
   "metadata": {}
