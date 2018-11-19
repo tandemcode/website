@@ -15,7 +15,7 @@
         "bounds": {
           "left": 2330,
           "top": 10,
-          "right": 2759,
+          "right": 2731,
           "bottom": 2445
         }
       },
@@ -121,6 +121,17 @@
                           "value": "Community\n",
                           "name": "override",
                           "children": []
+                        },
+                        {
+                          "id": "36d2facb155",
+                          "variantId": null,
+                          "propertyName": "text",
+                          "targetIdPath": [
+                            "36d2facb149"
+                          ],
+                          "value": "Community",
+                          "name": "override",
+                          "children": []
                         }
                       ],
                       "metadata": {},
@@ -144,6 +155,17 @@
                           "propertyName": "text",
                           "targetIdPath": [
                             "97080f54200"
+                          ],
+                          "value": "GitHub",
+                          "name": "override",
+                          "children": []
+                        },
+                        {
+                          "id": "36d2facb156",
+                          "variantId": null,
+                          "propertyName": "text",
+                          "targetIdPath": [
+                            "36d2facb149"
                           ],
                           "value": "GitHub",
                           "name": "override",
@@ -409,7 +431,7 @@
                           "id": "761e4a9456",
                           "name": "text",
                           "label": "Hook",
-                          "value": "Say goodby to handwritten HTML & CSS.",
+                          "value": "Visually create web components",
                           "style": {
                             "color": "rgba(255, 255, 255, 1)",
                             "font-size": "42px"
@@ -426,22 +448,6 @@
                       "metadata": {}
                     },
                     {
-                      "id": "97080f5481",
-                      "name": "text",
-                      "label": "Short Desc",
-                      "value": "Tandem is a free & open source editor for visually creating web components.",
-                      "style": {
-                        "font-size": "24px"
-                      },
-                      "children": [],
-                      "metadata": {},
-                      "styleMixins": {
-                        "761e4a9458": {
-                          "priority": 0
-                        }
-                      }
-                    },
-                    {
                       "id": "97080f54117",
                       "label": "ctra",
                       "is": "div",
@@ -449,8 +455,7 @@
                       "attributes": {},
                       "style": {
                         "box-sizing": "border-box",
-                        "display": "inline-block",
-                        "margin-top": "24px"
+                        "display": "inline-block"
                       },
                       "children": [
                         {
@@ -470,87 +475,17 @@
                           }
                         },
                         {
-                          "id": "97080f54127",
-                          "label": "Element",
-                          "is": "div",
-                          "name": "element",
+                          "id": "36d2facb331",
+                          "is": "36d2facb330",
+                          "label": "email form",
+                          "name": "component-instance",
                           "attributes": {},
                           "style": {
-                            "box-sizing": "border-box",
-                            "display": "flex",
-                            "text-align": "left",
                             "margin-top": "8px"
                           },
-                          "children": [
-                            {
-                              "id": "97080f54134",
-                              "is": "97080f54133",
-                              "label": "Input",
-                              "name": "component-instance",
-                              "attributes": {
-                                "placeholder": "email"
-                              },
-                              "style": {
-                                "border-left": "1px solid rgba(1, 1, 1, 1)",
-                                "border-top": "1px solid rgba(1, 1, 1, 1)",
-                                "border-right": "1px solid rgba(1, 1, 1, 1)",
-                                "border-bottom": "1px solid rgba(1, 1, 1, 1)",
-                                "border-bottom-left-radius": "2px",
-                                "border-bottom-right-radius": "0px",
-                                "border-top-right-radius": "0px",
-                                "font-size": "24px",
-                                "box-sizing": "border-box",
-                                "padding-top": "2px",
-                                "padding-right": "6px",
-                                "padding-bottom": "2px"
-                              },
-                              "children": [],
-                              "metadata": {},
-                              "variant": {}
-                            },
-                            {
-                              "id": "97080f54140",
-                              "label": "Element",
-                              "is": "97080f54125",
-                              "name": "component-instance",
-                              "attributes": {},
-                              "style": {
-                                "box-sizing": "border-box",
-                                "display": "inline-block",
-                                "border-top-left-radius": "0px",
-                                "border-bottom-left-radius": "0px",
-                                "font-size": "24px"
-                              },
-                              "children": [
-                                {
-                                  "id": "97080f54254",
-                                  "propertyName": "style",
-                                  "targetIdPath": [
-                                    "97080f54145"
-                                  ],
-                                  "value": {
-                                    "font-size": "24p"
-                                  },
-                                  "name": "override",
-                                  "children": []
-                                },
-                                {
-                                  "id": "97080f54255",
-                                  "variantId": null,
-                                  "propertyName": "text",
-                                  "targetIdPath": [
-                                    "97080f54145"
-                                  ],
-                                  "value": "Sign up",
-                                  "name": "override",
-                                  "children": []
-                                }
-                              ],
-                              "metadata": {},
-                              "variant": {}
-                            }
-                          ],
-                          "metadata": {}
+                          "children": [],
+                          "metadata": {},
+                          "variant": {}
                         }
                       ],
                       "metadata": {}
@@ -572,16 +507,37 @@
           "attributes": {},
           "style": {
             "box-sizing": "border-box",
-            "display": "block"
+            "display": "block",
+            "padding-top": "24px",
+            "padding-bottom": "24px"
           },
-          "children": [],
+          "children": [
+            {
+              "id": "97080f54256",
+              "name": "text",
+              "label": "Text",
+              "value": "IMAGE HERE",
+              "style": {
+                "font-size": "72px",
+                "text-align": "center",
+                "display": "block"
+              },
+              "children": [],
+              "metadata": {},
+              "styleMixins": {
+                "761e4a9458": {
+                  "priority": 0
+                }
+              }
+            }
+          ],
           "metadata": {}
         },
         {
           "id": "97080f54235",
           "name": "variant",
           "label": "Mobile",
-          "isDefault": false,
+          "isDefault": true,
           "children": [],
           "metadata": {}
         },
@@ -655,6 +611,242 @@
           },
           "name": "override",
           "children": []
+        },
+        {
+          "id": "97080f54297",
+          "label": "section",
+          "is": "div",
+          "name": "element",
+          "attributes": {},
+          "style": {
+            "box-sizing": "border-box",
+            "display": "block",
+            "background": "rgba(1, 1, 1, 1)",
+            "padding-left": "24px",
+            "padding-top": "24px",
+            "padding-right": "24px",
+            "padding-bottom": "24px"
+          },
+          "children": [
+            {
+              "id": "97080f54298",
+              "label": "middle",
+              "is": "div",
+              "name": "element",
+              "attributes": {},
+              "style": {
+                "display": "block",
+                "margin-right": "auto",
+                "margin-left": "auto",
+                "max-width": "1400px"
+              },
+              "children": [
+                {
+                  "id": "97080f54299",
+                  "label": "information",
+                  "is": "div",
+                  "name": "element",
+                  "attributes": {},
+                  "style": {
+                    "box-sizing": "border-box",
+                    "display": "inline-block",
+                    "max-width": "400px"
+                  },
+                  "children": [
+                    {
+                      "id": "97080f54300",
+                      "name": "text",
+                      "label": "Header",
+                      "value": "Design + Code",
+                      "style": {
+                        "color": "rgba(255, 255, 255, 1)",
+                        "font-size": "32px",
+                        "display": "block"
+                      },
+                      "children": [],
+                      "metadata": {},
+                      "styleMixins": {
+                        "761e4a9458": {
+                          "priority": 1
+                        }
+                      }
+                    },
+                    {
+                      "id": "97080f54301",
+                      "name": "text",
+                      "label": "Summary",
+                      "value": "No more Design to Code handoffs. With Tandem you can build production-grade web components visually.",
+                      "style": {
+                        "color": "rgba(255, 255, 255, 1)",
+                        "font-size": "18px"
+                      },
+                      "children": [],
+                      "metadata": {},
+                      "styleMixins": {
+                        "761e4a9458": {
+                          "priority": 0
+                        }
+                      }
+                    }
+                  ],
+                  "metadata": {}
+                }
+              ],
+              "metadata": {}
+            }
+          ],
+          "metadata": {}
+        },
+        {
+          "id": "97080f54317",
+          "label": "section",
+          "is": "div",
+          "name": "element",
+          "attributes": {},
+          "style": {
+            "box-sizing": "border-box",
+            "display": "block",
+            "background": "rgba(1, 1, 1, 1)",
+            "padding-left": "24px",
+            "padding-top": "24px",
+            "padding-right": "24px",
+            "padding-bottom": "24px",
+            "text-align": "left"
+          },
+          "children": [
+            {
+              "id": "97080f54318",
+              "label": "middle",
+              "is": "div",
+              "name": "element",
+              "attributes": {},
+              "style": {
+                "display": "block",
+                "margin-right": "auto",
+                "margin-left": "auto",
+                "max-width": "1400px"
+              },
+              "children": [
+                {
+                  "id": "36d2facb311",
+                  "label": "information",
+                  "is": "div",
+                  "name": "element",
+                  "attributes": {},
+                  "style": {
+                    "box-sizing": "border-box",
+                    "display": "inline-block",
+                    "max-width": "400px"
+                  },
+                  "children": [
+                    {
+                      "id": "36d2facb312",
+                      "name": "text",
+                      "label": "Header",
+                      "value": "Integrates with your code",
+                      "style": {
+                        "color": "rgba(255, 255, 255, 1)",
+                        "font-size": "32px",
+                        "display": "block"
+                      },
+                      "children": [],
+                      "metadata": {},
+                      "styleMixins": {
+                        "761e4a9458": {
+                          "priority": 1
+                        }
+                      }
+                    },
+                    {
+                      "id": "36d2facb313",
+                      "name": "text",
+                      "label": "Summary",
+                      "value": "TODO HERE",
+                      "style": {
+                        "color": "rgba(255, 255, 255, 1)",
+                        "font-size": "18px"
+                      },
+                      "children": [],
+                      "metadata": {},
+                      "styleMixins": {
+                        "761e4a9458": {
+                          "priority": 0
+                        }
+                      }
+                    }
+                  ],
+                  "metadata": {}
+                }
+              ],
+              "metadata": {}
+            }
+          ],
+          "metadata": {}
+        },
+        {
+          "id": "97080f54315",
+          "variantId": "97080f54235",
+          "propertyName": "style",
+          "targetIdPath": [
+            "97080f54297"
+          ],
+          "value": {
+            "text-align": "center"
+          },
+          "name": "override",
+          "children": []
+        },
+        {
+          "id": "97080f54316",
+          "variantId": "97080f54235",
+          "propertyName": "style",
+          "targetIdPath": [
+            "97080f54259"
+          ],
+          "value": {
+            "text-align": "center"
+          },
+          "name": "override",
+          "children": []
+        },
+        {
+          "id": "14212b0c142",
+          "variantId": "97080f54235",
+          "propertyName": "style",
+          "targetIdPath": [
+            "97080f54317"
+          ],
+          "value": {
+            "text-align": "center"
+          },
+          "name": "override",
+          "children": []
+        },
+        {
+          "id": "36d2facb320",
+          "label": "Features",
+          "is": "div",
+          "name": "element",
+          "attributes": {},
+          "style": {
+            "box-sizing": "border-box",
+            "display": "block"
+          },
+          "children": [],
+          "metadata": {}
+        },
+        {
+          "id": "36d2facb323",
+          "label": "Footer",
+          "is": "div",
+          "name": "element",
+          "attributes": {},
+          "style": {
+            "box-sizing": "border-box",
+            "display": "block"
+          },
+          "children": [],
+          "metadata": {}
         }
       ],
       "metadata": {
@@ -692,7 +884,7 @@
           "style": {
             "display": "inline-block",
             "height": "1em",
-            "padding-right": "4px",
+            "padding-right": "12px",
             "font-size": "42px"
           },
           "children": [],
@@ -770,6 +962,100 @@
       "maxWidth": "500",
       "children": [],
       "metadata": {}
+    },
+    {
+      "label": "email form",
+      "is": "div",
+      "style": {
+        "box-sizing": "border-box",
+        "display": "flex",
+        "text-align": "left"
+      },
+      "attributes": {},
+      "id": "36d2facb330",
+      "name": "component",
+      "children": [
+        {
+          "id": "36d2facb326",
+          "is": "97080f54133",
+          "label": "Input",
+          "name": "component-instance",
+          "attributes": {
+            "placeholder": "email"
+          },
+          "style": {
+            "border-left": "1px solid rgba(1, 1, 1, 1)",
+            "border-top": "1px solid rgba(1, 1, 1, 1)",
+            "border-right": "1px solid rgba(1, 1, 1, 1)",
+            "border-bottom": "1px solid rgba(1, 1, 1, 1)",
+            "border-bottom-left-radius": "2px",
+            "border-bottom-right-radius": "0px",
+            "border-top-right-radius": "0px",
+            "font-size": "24px",
+            "box-sizing": "border-box",
+            "padding-top": "2px",
+            "padding-right": "6px",
+            "padding-bottom": "2px"
+          },
+          "children": [],
+          "metadata": {},
+          "variant": {}
+        },
+        {
+          "id": "36d2facb327",
+          "label": "Element",
+          "is": "97080f54125",
+          "name": "component-instance",
+          "attributes": {},
+          "style": {
+            "box-sizing": "border-box",
+            "display": "inline-block",
+            "border-top-left-radius": "0px",
+            "border-bottom-left-radius": "0px",
+            "font-size": "14px",
+            "padding-right": "12px",
+            "padding-bottom": "2px",
+            "padding-left": "12px",
+            "padding-top": "6px"
+          },
+          "children": [
+            {
+              "id": "36d2facb328",
+              "propertyName": "style",
+              "targetIdPath": [
+                "97080f54145"
+              ],
+              "value": {
+                "font-size": "24p"
+              },
+              "name": "override",
+              "children": []
+            },
+            {
+              "id": "36d2facb329",
+              "variantId": null,
+              "propertyName": "text",
+              "targetIdPath": [
+                "97080f54145"
+              ],
+              "value": "Sign up",
+              "name": "override",
+              "children": []
+            }
+          ],
+          "metadata": {},
+          "variant": {}
+        }
+      ],
+      "metadata": {
+        "bounds": {
+          "left": 2067,
+          "top": -223,
+          "right": 2388.125,
+          "bottom": -189
+        }
+      },
+      "variant": {}
     }
   ],
   "metadata": {}

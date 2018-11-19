@@ -115,7 +115,7 @@
     },
     {
       "label": "Header Link",
-      "is": "div",
+      "is": "a",
       "style": {
         "box-sizing": "border-box",
         "display": "block",
@@ -126,12 +126,12 @@
       "name": "component",
       "children": [
         {
-          "id": "97080f54200",
+          "id": "36d2facb149",
           "name": "text",
           "label": "Text",
           "value": "Link",
           "style": {
-            "border-bottom": "1px solid rgba(1, 1, 1, 1)",
+            "border-bottom": "1px solid",
             "font-size": "24px"
           },
           "children": [],
@@ -145,10 +145,10 @@
       ],
       "metadata": {
         "bounds": {
-          "left": 2827.84899488095,
-          "top": -288.4087805399222,
-          "right": 2927.84899488095,
-          "bottom": -188.4087805399222
+          "left": 2982,
+          "top": -335,
+          "right": 3082,
+          "bottom": -235
         }
       },
       "variant": {}
