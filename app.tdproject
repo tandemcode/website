@@ -4,5 +4,4 @@
   "exclude": [
     "node_modules"
   ],
-  "mainFilePath": "./src/main.pc"
-}
+  "mainFilePath": "./src/main.pc"}

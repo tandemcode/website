@@ -1,0 +1,8 @@
+module.exports = {
+  outputDirectory: __dirname + "/public",
+  pages: [
+    {
+	fileName: "index.html",
+    }
+  ]
+};
