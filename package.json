@@ -1,0 +1,28 @@
+{
+  "name": "tandem-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "static-html.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "paperclip-html-compiler": "^10.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "paperclip-html-compiler static-html.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tandemcode/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tandemcode/website/issues"
+  },
+  "homepage": "https://github.com/tandemcode/website#readme"
+}
