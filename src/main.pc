@@ -876,7 +876,7 @@
                       "targetIdPath": [
                         "5acd717e215"
                       ],
-                      "value": "Re-use UIs",
+                      "value": "Reusable user interfaces",
                       "name": "override",
                       "children": []
                     },
