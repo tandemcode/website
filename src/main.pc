@@ -122,11 +122,52 @@
                   },
                   "children": [
                     {
+                      "id": "53df978a491",
+                      "label": "Community",
+                      "is": "97080f54201",
+                      "name": "component-instance",
+                      "attributes": {
+                        "href": "https://groups.google.com/forum/#!forum/tandem-code"
+                      },
+                      "style": {
+                        "box-sizing": "border-box",
+                        "display": "inline-block"
+                      },
+                      "children": [
+                        {
+                          "id": "53df978a492",
+                          "variantId": null,
+                          "propertyName": "text",
+                          "targetIdPath": [
+                            "97080f54200"
+                          ],
+                          "value": "Community\n",
+                          "name": "override",
+                          "children": []
+                        },
+                        {
+                          "id": "53df978a493",
+                          "variantId": null,
+                          "propertyName": "text",
+                          "targetIdPath": [
+                            "36d2facb149"
+                          ],
+                          "value": "Discuss",
+                          "name": "override",
+                          "children": []
+                        }
+                      ],
+                      "metadata": {},
+                      "variant": {}
+                    },
+                    {
                       "id": "97080f54226",
                       "label": "Community",
                       "is": "97080f54201",
                       "name": "component-instance",
-                      "attributes": {},
+                      "attributes": {
+                        "href": "mailto: hello@tandemcode.com"
+                      },
                       "style": {
                         "box-sizing": "border-box",
                         "display": "inline-block"
@@ -144,13 +185,13 @@
                           "children": []
                         },
                         {
-                          "id": "36d2facb155",
+                          "id": "53df978a503",
                           "variantId": null,
                           "propertyName": "text",
                           "targetIdPath": [
                             "36d2facb149"
                           ],
-                          "value": "Community",
+                          "value": "Contact",
                           "name": "override",
                           "children": []
                         }
@@ -163,7 +204,9 @@
                       "label": "Community",
                       "is": "97080f54201",
                       "name": "component-instance",
-                      "attributes": {},
+                      "attributes": {
+                        "href": "https://github.com/tandemcode/tandem"
+                      },
                       "style": {
                         "box-sizing": "border-box",
                         "display": "inline-block",
@@ -502,35 +545,47 @@
                       },
                       "children": [
                         {
-                          "id": "97080f54120",
-                          "name": "text",
-                          "label": "Text",
-                          "value": "Sign up for early access",
-                          "style": {
-                            "font-size": "14px",
-                            "color": "rgba(150, 150, 150, 1)",
-                            "font-weight": "600"
+                          "id": "d38cee0d1458",
+                          "label": "Element",
+                          "is": "a",
+                          "name": "element",
+                          "attributes": {
+                            "href": "https://tandemcode.us14.list-manage.com/subscribe/post?u=9366438be55d995ab1859780d&id=b05de12433"
                           },
-                          "children": [],
+                          "style": {
+                            "box-sizing": "border-box",
+                            "display": "block",
+                            "text-decoration": "none",
+                            "background": "var(--97080f5435)",
+                            "border-top-left-radius": "99px",
+                            "border-top-right-radius": "99px",
+                            "border-bottom-left-radius": "99px",
+                            "border-bottom-right-radius": "99px",
+                            "padding-left": "12px",
+                            "padding-top": "6px",
+                            "padding-right": "12px",
+                            "padding-bottom": "6px"
+                          },
+                          "children": [
+                            {
+                              "id": "d38cee0d1454",
+                              "name": "text",
+                              "label": "Text",
+                              "value": "Sign up for early access",
+                              "style": {
+                                "color": "rgba(255, 255, 255, 1)",
+                                "font-size": "18px"
+                              },
+                              "children": [],
+                              "metadata": {}
+                            }
+                          ],
                           "metadata": {},
                           "styleMixins": {
                             "761e4a9458": {
                               "priority": 0
                             }
                           }
-                        },
-                        {
-                          "id": "36d2facb331",
-                          "is": "36d2facb330",
-                          "label": "email form",
-                          "name": "component-instance",
-                          "attributes": {},
-                          "style": {
-                            "margin-top": "8px"
-                          },
-                          "children": [],
-                          "metadata": {},
-                          "variant": {}
                         }
                       ],
                       "metadata": {}
@@ -566,7 +621,7 @@
               "style": {
                 "overflow": "hidden",
                 "display": "block",
-                "height": "400px"
+                "height": "40vw"
               },
               "children": [
                 {
@@ -574,7 +629,7 @@
                   "is": "img",
                   "name": "element",
                   "attributes": {
-                    "src": "./assets/top-screenshot.png"
+                    "src": "assets/screenshot-4.png"
                   },
                   "style": {
                     "display": "block",
