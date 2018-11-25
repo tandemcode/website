@@ -1332,7 +1332,7 @@
           "attributes": {},
           "style": {
             "box-sizing": "border-box",
-            "display": "block",
+            "display": "none",
             "background": "var(--97080f5435)",
             "padding-left": "24px",
             "padding-top": "24px",
