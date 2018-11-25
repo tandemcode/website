@@ -887,7 +887,7 @@
                       "targetIdPath": [
                         "5acd717e216"
                       ],
-                      "value": "Mobile, desktop, server-side, or anything else in between. Tandem can be used to build just about any kind of application.",
+                      "value": "Mobile, desktop, server-side, or anything else in between. Tandem can be used to build just about any kind of web application.",
                       "name": "override",
                       "children": []
                     }
