@@ -136,7 +136,7 @@
           "value": "Link",
           "style": {
             "border-bottom": "1px solid",
-            "font-size": "12px",
+            "font-size": "14px",
             "color": "var(--97080f5435)"
           },
           "children": [],

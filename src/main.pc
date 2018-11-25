@@ -841,7 +841,7 @@
                       "targetIdPath": [
                         "5acd717e216"
                       ],
-                      "value": "Components can compile to PHP, React, Static HTML, and many other languages, so you can easily integrate them into your existing project.",
+                      "value": "Components can compile to PHP, React, static HTML, and many other languages, so you can easily integrate them into your existing project.",
                       "name": "override",
                       "children": []
                     }
