@@ -5,6 +5,26 @@
   "name": "module",
   "children": [
     {
+      "id": "26fbff781012",
+      "is": "83e764631",
+      "label": "Desktop",
+      "name": "component-instance",
+      "attributes": {},
+      "style": {},
+      "children": [],
+      "metadata": {
+        "bounds": {
+          "left": 3770,
+          "top": 86,
+          "right": 6330,
+          "bottom": 2993
+        }
+      },
+      "variant": {
+        "97080f54235": false
+      }
+    },
+    {
       "id": "97080f5483",
       "is": "83e764631",
       "label": "Mobile",
@@ -16,8 +36,8 @@
         "bounds": {
           "left": 2330,
           "top": 10,
-          "right": 2730,
-          "bottom": 2799
+          "right": 2714,
+          "bottom": 2954
         }
       },
       "variant": {
@@ -224,7 +244,7 @@
                         "padding-right": "24px",
                         "padding-bottom": "24px",
                         "flex-grow": "0",
-                        "margin-bottom": "24px",
+                        "margin-bottom": "12px",
                         "position": "relative"
                       },
                       "children": [
@@ -421,10 +441,43 @@
                           "id": "761e4a9456",
                           "name": "text",
                           "label": "Hook",
-                          "value": "Build components visually",
+                          "value": "Say goodbye to handwritten HTML & CSS",
                           "style": {
                             "color": "rgba(255, 255, 255, 1)",
-                            "font-size": "42px"
+                            "font-size": "24px"
+                          },
+                          "children": [],
+                          "metadata": {},
+                          "styleMixins": {
+                            "761e4a9458": {
+                              "priority": 0
+                            }
+                          }
+                        }
+                      ],
+                      "metadata": {}
+                    },
+                    {
+                      "id": "26fbff78997",
+                      "label": "short desc",
+                      "is": "div",
+                      "name": "element",
+                      "attributes": {},
+                      "style": {
+                        "box-sizing": "border-box",
+                        "display": "block",
+                        "margin-bottom": "12px"
+                      },
+                      "children": [
+                        {
+                          "id": "26fbff781002",
+                          "name": "text",
+                          "label": "Text",
+                          "value": "Tandem is a free & open source web component builder",
+                          "style": {
+                            "font-size": "18px",
+                            "color": "var(--97080f5435)",
+                            "font-weight": "600"
                           },
                           "children": [],
                           "metadata": {},
@@ -454,7 +507,9 @@
                           "label": "Text",
                           "value": "Sign up for early access",
                           "style": {
-                            "font-size": "18px"
+                            "font-size": "14px",
+                            "color": "rgba(150, 150, 150, 1)",
+                            "font-weight": "600"
                           },
                           "children": [],
                           "metadata": {},
@@ -677,7 +732,7 @@
                       "targetIdPath": [
                         "5acd717e215"
                       ],
-                      "value": "Integrates with your code",
+                      "value": "Integrates with code",
                       "name": "override",
                       "children": []
                     }
@@ -780,7 +835,7 @@
             "margin-left": "auto",
             "margin-top": "42px",
             "justify-content": "space-between",
-            "flex-wrap": "wrap"
+            "flex-wrap": "nowrap"
           },
           "children": [
             {
@@ -815,7 +870,9 @@
                 }
               ],
               "metadata": {},
-              "variant": {}
+              "variant": {
+                "26fbff78994": false
+              }
             },
             {
               "id": "5acd717e457",
@@ -1032,8 +1089,7 @@
             "margin-right": "auto",
             "margin-left": "auto",
             "margin-top": "42px",
-            "justify-content": "space-between",
-            "flex-wrap": "wrap"
+            "justify-content": "space-between"
           },
           "children": [
             {
@@ -1448,7 +1504,8 @@
             "5acd717e1014"
           ],
           "value": {
-            "flex-wrap": "wrap"
+            "flex-wrap": "wrap",
+            "justify-content": "center"
           },
           "name": "override",
           "children": []
@@ -1463,14 +1520,45 @@
           },
           "children": [],
           "metadata": {}
+        },
+        {
+          "id": "26fbff78995",
+          "variantId": "97080f54235",
+          "propertyName": "style",
+          "targetIdPath": [
+            "5acd717e455"
+          ],
+          "value": {
+            "text-align": "left",
+            "align-items": "unset",
+            "align-content": "unset",
+            "flex-wrap": "wrap",
+            "justify-content": "center"
+          },
+          "name": "override",
+          "children": []
+        },
+        {
+          "id": "26fbff78996",
+          "variantId": "97080f54235",
+          "propertyName": "style",
+          "targetIdPath": [
+            "5acd717e341"
+          ],
+          "value": {
+            "justify-content": "center",
+            "flex-wrap": "wrap"
+          },
+          "name": "override",
+          "children": []
         }
       ],
       "metadata": {
         "bounds": {
-          "left": 329,
-          "top": 29,
-          "right": 2068,
-          "bottom": 2813
+          "left": 942,
+          "top": -2,
+          "right": 1867,
+          "bottom": 1034
         }
       },
       "variant": {}
@@ -1483,7 +1571,7 @@
         "display": "inline-flex",
         "align-items": "center",
         "margin-left": "8px",
-        "font-size": "42px"
+        "font-size": "18px"
       },
       "attributes": {},
       "id": "bdb0841881",
@@ -1501,7 +1589,7 @@
             "display": "inline-block",
             "height": "1em",
             "padding-right": "12px",
-            "font-size": "42px"
+            "font-size": "unset"
           },
           "children": [],
           "metadata": {}
@@ -1551,10 +1639,10 @@
       "style": {
         "box-sizing": "border-box",
         "display": "block",
-        "box-shadow": "inset  0px 0px 0px 2px rgba(0,0,0,1)",
+        "box-shadow": "inset  0px 0px 0px 1px rgba(0,0,0,1)",
         "background": "rgba(255, 255, 255, 1)",
-        "width": "10px",
-        "height": "10px",
+        "width": "5px",
+        "height": "5px",
         "transform": "translate(-50%, -50%)"
       },
       "attributes": {},
@@ -1581,100 +1669,6 @@
       "condition": {
         "maxWidth": "500"
       }
-    },
-    {
-      "label": "email form",
-      "is": "div",
-      "style": {
-        "box-sizing": "border-box",
-        "display": "flex",
-        "text-align": "left"
-      },
-      "attributes": {},
-      "id": "36d2facb330",
-      "name": "component",
-      "children": [
-        {
-          "id": "36d2facb326",
-          "is": "97080f54133",
-          "label": "Input",
-          "name": "component-instance",
-          "attributes": {
-            "placeholder": "email"
-          },
-          "style": {
-            "border-left": "1px solid rgba(1, 1, 1, 1)",
-            "border-top": "1px solid rgba(1, 1, 1, 1)",
-            "border-right": "1px solid rgba(1, 1, 1, 1)",
-            "border-bottom": "1px solid rgba(1, 1, 1, 1)",
-            "border-bottom-left-radius": "2px",
-            "border-bottom-right-radius": "0px",
-            "border-top-right-radius": "0px",
-            "font-size": "24px",
-            "box-sizing": "border-box",
-            "padding-top": "2px",
-            "padding-right": "6px",
-            "padding-bottom": "2px"
-          },
-          "children": [],
-          "metadata": {},
-          "variant": {}
-        },
-        {
-          "id": "36d2facb327",
-          "label": "Element",
-          "is": "97080f54125",
-          "name": "component-instance",
-          "attributes": {},
-          "style": {
-            "box-sizing": "border-box",
-            "display": "inline-block",
-            "border-top-left-radius": "0px",
-            "border-bottom-left-radius": "0px",
-            "font-size": "14px",
-            "padding-right": "12px",
-            "padding-bottom": "2px",
-            "padding-left": "12px",
-            "padding-top": "6px"
-          },
-          "children": [
-            {
-              "id": "36d2facb328",
-              "propertyName": "style",
-              "targetIdPath": [
-                "97080f54145"
-              ],
-              "value": {
-                "font-size": "24p"
-              },
-              "name": "override",
-              "children": []
-            },
-            {
-              "id": "36d2facb329",
-              "variantId": null,
-              "propertyName": "text",
-              "targetIdPath": [
-                "97080f54145"
-              ],
-              "value": "Sign up",
-              "name": "override",
-              "children": []
-            }
-          ],
-          "metadata": {},
-          "variant": {}
-        }
-      ],
-      "metadata": {
-        "bounds": {
-          "left": 2067,
-          "top": -223,
-          "right": 2388.125,
-          "bottom": -189
-        }
-      },
-      "variant": {}
     },
     {
       "label": "Information",
@@ -1897,37 +1891,25 @@
               "priority": 0
             }
           }
+        },
+        {
+          "id": "26fbff78994",
+          "name": "variant",
+          "label": "Mobile",
+          "isDefault": true,
+          "children": [],
+          "metadata": {}
         }
       ],
       "metadata": {
         "bounds": {
-          "left": 2790,
-          "top": 91,
-          "right": 3256.609375,
-          "bottom": 153
+          "left": 2990,
+          "top": 29,
+          "right": 3304,
+          "bottom": 325
         }
       },
       "variant": {}
-    },
-    {
-      "id": "5acd717e522",
-      "label": "Element",
-      "is": "div",
-      "name": "element",
-      "attributes": {},
-      "style": {
-        "box-sizing": "border-box",
-        "display": "block"
-      },
-      "children": [],
-      "metadata": {
-        "bounds": {
-          "left": 3510.536244592853,
-          "top": 353.80439986780834,
-          "right": 3610.536244592853,
-          "bottom": 453.80439986780834
-        }
-      }
     },
     {
       "id": "56f3ab75334",

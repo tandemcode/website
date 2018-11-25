@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "paperclip-html-compiler static-html.config.js"
+    "build": "paperclip-static-html-compiler static-html.config.js"
   },
   "repository": {
     "type": "git",

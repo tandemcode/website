@@ -1,7 +1,8 @@
 {
   "id": "9e4278021",
+  "version": "0.0.6",
+  "metadata": {},
   "name": "module",
-  "version": "0.0.5",
   "children": [
     {
       "id": "761e4a9458",
@@ -132,7 +133,7 @@
           "value": "Link",
           "style": {
             "border-bottom": "1px solid",
-            "font-size": "24px"
+            "font-size": "12px"
           },
           "children": [],
           "metadata": {},
@@ -152,7 +153,104 @@
         }
       },
       "variant": {}
+    },
+    {
+      "label": "email form",
+      "is": "div",
+      "style": {
+        "box-sizing": "border-box",
+        "display": "flex",
+        "text-align": "left"
+      },
+      "attributes": {},
+      "id": "36d2facb330",
+      "name": "component",
+      "children": [
+        {
+          "id": "36d2facb326",
+          "is": "97080f54133",
+          "label": "Input",
+          "name": "component-instance",
+          "attributes": {
+            "placeholder": "email"
+          },
+          "style": {
+            "border-left": "1px solid var(--97080f5435)",
+            "border-top": "1px solid var(--97080f5435)",
+            "border-right": "1px solid var(--97080f5435)",
+            "border-bottom": "1px solid var(--97080f5435)",
+            "border-bottom-left-radius": "2px",
+            "border-bottom-right-radius": "0px",
+            "border-top-right-radius": "0px",
+            "box-sizing": "border-box",
+            "padding-top": "2px",
+            "padding-right": "6px",
+            "padding-bottom": "2px",
+            "font-size": "12px"
+          },
+          "children": [],
+          "metadata": {},
+          "variant": {}
+        },
+        {
+          "id": "36d2facb327",
+          "label": "Element",
+          "is": "97080f54125",
+          "name": "component-instance",
+          "attributes": {},
+          "style": {
+            "box-sizing": "border-box",
+            "display": "inline-block",
+            "border-top-left-radius": "0px",
+            "border-bottom-left-radius": "0px",
+            "font-size": "12px",
+            "padding-right": "12px",
+            "padding-bottom": "6px",
+            "padding-left": "12px",
+            "padding-top": "6px",
+            "border-left": "1px solid var(--97080f5435)",
+            "border-top": "1px solid var(--97080f5435)",
+            "border-right": "1px solid var(--97080f5435)",
+            "border-bottom": "1px solid var(--97080f5435)"
+          },
+          "children": [
+            {
+              "id": "36d2facb328",
+              "propertyName": "style",
+              "targetIdPath": [
+                "97080f54145"
+              ],
+              "value": {
+                "font-size": "24p"
+              },
+              "name": "override",
+              "children": []
+            },
+            {
+              "id": "36d2facb329",
+              "variantId": null,
+              "propertyName": "text",
+              "targetIdPath": [
+                "97080f54145"
+              ],
+              "value": "Sign up",
+              "name": "override",
+              "children": []
+            }
+          ],
+          "metadata": {},
+          "variant": {}
+        }
+      ],
+      "metadata": {
+        "bounds": {
+          "left": 2353,
+          "top": -483,
+          "right": 2674.125,
+          "bottom": -449
+        }
+      },
+      "variant": {}
     }
-  ],
-  "metadata": {}
+  ]
 }
