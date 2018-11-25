@@ -675,7 +675,7 @@
           "id": "97080f54235",
           "name": "variant",
           "label": "Mobile",
-          "isDefault": false,
+          "isDefault": true,
           "children": [],
           "metadata": {}
         },
@@ -1760,6 +1760,36 @@
               "priority": 1
             }
           }
+        },
+        {
+          "id": "ed8f7e18839",
+          "name": "variant",
+          "label": "Mobile",
+          "isDefault": true,
+          "children": [],
+          "metadata": {}
+        },
+        {
+          "id": "ed8f7e18840",
+          "name": "variant-trigger",
+          "targetVariantId": "ed8f7e18839",
+          "source": {
+            "type": 0,
+            "queryId": "97080f54234"
+          },
+          "children": [],
+          "metadata": {}
+        },
+        {
+          "id": "ed8f7e18842",
+          "variantId": "ed8f7e18839",
+          "propertyName": "style",
+          "targetIdPath": [],
+          "value": {
+            "font-size": "24px"
+          },
+          "name": "override",
+          "children": []
         }
       ],
       "metadata": {
