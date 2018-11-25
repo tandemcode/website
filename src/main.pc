@@ -1437,7 +1437,7 @@
                   "label": "Header Link",
                   "name": "component-instance",
                   "attributes": {
-                    "href": "https://groups.google.com/forum/#!forum/tandem-code"
+                    "href": "https://tandemcode.us14.list-manage.com/subscribe/post?u=9366438be55d995ab1859780d&id=b05de12433"
                   },
                   "style": {
                     "display": "inline-block",
