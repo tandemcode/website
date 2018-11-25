@@ -1240,7 +1240,7 @@
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Components are decoupled from code, so you can re-use them across multiple platforms and languages. ",
+                  "value": "Components are decoupled from code, so you can reuse them across multiple platforms and languages. ",
                   "name": "override",
                   "children": []
                 }
