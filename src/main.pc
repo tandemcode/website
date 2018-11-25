@@ -962,7 +962,7 @@
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "HTML & CSS with precision",
+                  "value": "Build UIs with precision",
                   "name": "override",
                   "children": []
                 },
@@ -1174,7 +1174,7 @@
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Link basic CSS from your Sketch or Figma designs to Tandem components. ",
+                  "value": "Link basic CSS from your Sketch or Figma designs to Tandem components. Other integrations are on the way to allow you to use the best design tool for the job.",
                   "name": "override",
                   "children": []
                 }
