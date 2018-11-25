@@ -876,7 +876,7 @@
                       "targetIdPath": [
                         "5acd717e215"
                       ],
-                      "value": "Reusable user interfaces",
+                      "value": "Build any kind of app\n\n",
                       "name": "override",
                       "children": []
                     },
@@ -887,7 +887,7 @@
                       "targetIdPath": [
                         "5acd717e216"
                       ],
-                      "value": "Components are decoupled from code, so you can re-use them across multiple platforms and languages. ",
+                      "value": "Mobile, desktop, server-side, or anything else in between. Tandem can be used to build just about any kind of application.",
                       "name": "override",
                       "children": []
                     }
@@ -1035,75 +1035,6 @@
               "variant": {}
             },
             {
-              "id": "5acd717e456",
-              "is": "5acd717e403",
-              "label": "Like a web inspector",
-              "name": "component-instance",
-              "attributes": {},
-              "style": {},
-              "children": [
-                {
-                  "id": "5acd717e616",
-                  "variantId": null,
-                  "propertyName": "text",
-                  "targetIdPath": [
-                    "5acd717e401"
-                  ],
-                  "value": "Like a web inspector",
-                  "name": "override",
-                  "children": []
-                },
-                {
-                  "id": "5acd717e919",
-                  "variantId": null,
-                  "propertyName": "text",
-                  "targetIdPath": [
-                    "5acd717e402"
-                  ],
-                  "value": "Like a glorified web inspector, with  full transparency into HTML & CSS creation. \n",
-                  "name": "override",
-                  "children": []
-                },
-                {
-                  "slotId": "5acd717e564",
-                  "id": "d38cee0d1350",
-                  "children": [
-                    {
-                      "id": "d38cee0d1349",
-                      "is": "d38cee0d1345",
-                      "label": "eye icon",
-                      "name": "component-instance",
-                      "attributes": {},
-                      "style": {
-                        "display": "block",
-                        "height": "100%",
-                        "margin-right": "auto",
-                        "margin-left": "auto",
-                        "margin-bottom": "0px",
-                        "margin-top": "0px"
-                      },
-                      "children": [],
-                      "metadata": {
-                        "bounds": {
-                          "left": 1167,
-                          "top": -650,
-                          "right": 1567,
-                          "bottom": -350
-                        }
-                      },
-                      "variant": {}
-                    }
-                  ],
-                  "metadata": {},
-                  "name": "plug"
-                }
-              ],
-              "metadata": {},
-              "variant": {
-                "26fbff78994": false
-              }
-            },
-            {
               "id": "5acd717e392",
               "label": "Link files feature",
               "is": "5acd717e403",
@@ -1160,27 +1091,7 @@
               ],
               "metadata": {},
               "variant": {}
-            }
-          ],
-          "metadata": {}
-        },
-        {
-          "id": "5acd717e341",
-          "label": "features",
-          "is": "div",
-          "name": "element",
-          "attributes": {},
-          "style": {
-            "box-sizing": "border-box",
-            "display": "flex",
-            "width": "100%",
-            "max-width": "1400px",
-            "margin-right": "auto",
-            "margin-left": "auto",
-            "margin-top": "42px",
-            "justify-content": "space-between"
-          },
-          "children": [
+            },
             {
               "id": "5acd717e457",
               "label": "Safety Feature",
@@ -1248,7 +1159,27 @@
               ],
               "metadata": {},
               "variant": {}
-            },
+            }
+          ],
+          "metadata": {}
+        },
+        {
+          "id": "5acd717e341",
+          "label": "features",
+          "is": "div",
+          "name": "element",
+          "attributes": {},
+          "style": {
+            "box-sizing": "border-box",
+            "display": "flex",
+            "width": "100%",
+            "max-width": "1400px",
+            "margin-right": "auto",
+            "margin-left": "auto",
+            "margin-top": "42px",
+            "justify-content": "space-between"
+          },
+          "children": [
             {
               "id": "5acd717e459",
               "label": "Designed for scale",
@@ -1265,33 +1196,24 @@
                   "id": "5acd717e759",
                   "children": [
                     {
-                      "id": "5acd717e764",
-                      "is": "d38cee0d1279",
+                      "id": "b0f2dc5b669",
+                      "is": "b0f2dc5b837",
+                      "label": "Devices icon",
                       "name": "component-instance",
-                      "attributes": {
-                        "xmlns": "http://www.w3.org/2000/svg",
-                        "xmlns:xlink": "http://www.w3.org/1999/xlink",
-                        "xml:space": "preserve",
-                        "style": "shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;",
-                        "viewBox": "0 0 100 100",
-                        "x": "0px",
-                        "y": "0px",
-                        "fill-rule": "evenodd",
-                        "clip-rule": "evenodd"
-                      },
+                      "attributes": {},
                       "style": {
                         "display": "block",
-                        "height": "90%",
+                        "height": "100%",
                         "margin-right": "auto",
                         "margin-left": "auto"
                       },
                       "children": [],
                       "metadata": {
                         "bounds": {
-                          "left": -781,
-                          "top": 1410,
-                          "right": -381,
-                          "bottom": 1710
+                          "left": 2275,
+                          "top": 94,
+                          "right": 2675,
+                          "bottom": 394
                         }
                       },
                       "variant": {}
@@ -1307,7 +1229,7 @@
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "Scalability in mind",
+                  "value": "Reusable user interfaces",
                   "name": "override",
                   "children": []
                 },
@@ -1318,13 +1240,82 @@
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Software development is hard, so scalability is the number one priority to ensure that you can build any sized project.",
+                  "value": "Components are decoupled from code, so you can re-use them across multiple platforms and languages. ",
                   "name": "override",
                   "children": []
                 }
               ],
               "metadata": {},
               "variant": {}
+            },
+            {
+              "id": "5acd717e456",
+              "is": "5acd717e403",
+              "label": "Like a web inspector",
+              "name": "component-instance",
+              "attributes": {},
+              "style": {},
+              "children": [
+                {
+                  "id": "5acd717e616",
+                  "variantId": null,
+                  "propertyName": "text",
+                  "targetIdPath": [
+                    "5acd717e401"
+                  ],
+                  "value": "Like a web inspector",
+                  "name": "override",
+                  "children": []
+                },
+                {
+                  "id": "5acd717e919",
+                  "variantId": null,
+                  "propertyName": "text",
+                  "targetIdPath": [
+                    "5acd717e402"
+                  ],
+                  "value": "Like a glorified web inspector, with  full transparency into HTML & CSS creation. \n",
+                  "name": "override",
+                  "children": []
+                },
+                {
+                  "slotId": "5acd717e564",
+                  "id": "d38cee0d1350",
+                  "children": [
+                    {
+                      "id": "d38cee0d1349",
+                      "is": "d38cee0d1345",
+                      "label": "eye icon",
+                      "name": "component-instance",
+                      "attributes": {},
+                      "style": {
+                        "display": "block",
+                        "height": "100%",
+                        "margin-right": "auto",
+                        "margin-left": "auto",
+                        "margin-bottom": "0px",
+                        "margin-top": "0px"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "bounds": {
+                          "left": 1167,
+                          "top": -650,
+                          "right": 1567,
+                          "bottom": -350
+                        }
+                      },
+                      "variant": {}
+                    }
+                  ],
+                  "metadata": {},
+                  "name": "plug"
+                }
+              ],
+              "metadata": {},
+              "variant": {
+                "26fbff78994": false
+              }
             },
             {
               "id": "5acd717e348",
@@ -1395,6 +1386,146 @@
               ],
               "metadata": {},
               "variant": {}
+            }
+          ],
+          "metadata": {}
+        },
+        {
+          "id": "3b03e5e0504",
+          "label": "Footer",
+          "is": "div",
+          "name": "element",
+          "attributes": {},
+          "style": {
+            "box-sizing": "border-box",
+            "display": "flex",
+            "padding-left": "24px",
+            "padding-top": "24px",
+            "padding-right": "24px",
+            "padding-bottom": "24px",
+            "justify-content": "space-between"
+          },
+          "children": [
+            {
+              "id": "3b03e5e0524",
+              "name": "text",
+              "label": "Text",
+              "value": "© Tandem Code",
+              "style": {
+                "color": "rgba(123, 123, 123, 1)",
+                "font-size": "14px"
+              },
+              "children": [],
+              "metadata": {},
+              "styleMixins": {
+                "761e4a9458": {
+                  "priority": 0
+                }
+              }
+            },
+            {
+              "id": "3b03e5e0538",
+              "label": "Element",
+              "is": "div",
+              "name": "element",
+              "attributes": {},
+              "style": {},
+              "children": [
+                {
+                  "id": "3b03e5e0551",
+                  "is": "97080f54201",
+                  "label": "Header Link",
+                  "name": "component-instance",
+                  "attributes": {
+                    "href": "https://groups.google.com/forum/#!forum/tandem-code"
+                  },
+                  "style": {
+                    "display": "inline-block",
+                    "letter-spacing": "unset"
+                  },
+                  "children": [
+                    {
+                      "id": "3b03e5e0561",
+                      "variantId": null,
+                      "propertyName": "text",
+                      "targetIdPath": [
+                        "36d2facb149"
+                      ],
+                      "value": "Sign up\n",
+                      "name": "override",
+                      "children": []
+                    },
+                    {
+                      "id": "3b03e5e0563",
+                      "propertyName": "style",
+                      "targetIdPath": [
+                        "36d2facb149"
+                      ],
+                      "value": {
+                        "color": "var(--3b03e5e0523)"
+                      },
+                      "name": "override",
+                      "children": []
+                    }
+                  ],
+                  "metadata": {
+                    "bounds": {
+                      "left": 2982,
+                      "top": -335,
+                      "right": 3082,
+                      "bottom": -235
+                    }
+                  },
+                  "variant": {}
+                },
+                {
+                  "id": "3b03e5e0528",
+                  "is": "97080f54201",
+                  "label": "Header Link",
+                  "name": "component-instance",
+                  "attributes": {
+                    "href": "mailto: hello@tandemcode.com"
+                  },
+                  "style": {
+                    "display": "inline-block"
+                  },
+                  "children": [
+                    {
+                      "id": "3b03e5e0562",
+                      "variantId": null,
+                      "propertyName": "text",
+                      "targetIdPath": [
+                        "36d2facb149"
+                      ],
+                      "value": "Contact",
+                      "name": "override",
+                      "children": []
+                    },
+                    {
+                      "id": "3b03e5e0564",
+                      "propertyName": "style",
+                      "targetIdPath": [
+                        "36d2facb149"
+                      ],
+                      "value": {
+                        "color": "var(--3b03e5e0523)"
+                      },
+                      "name": "override",
+                      "children": []
+                    }
+                  ],
+                  "metadata": {
+                    "bounds": {
+                      "left": 2982,
+                      "top": -335,
+                      "right": 3082,
+                      "bottom": -235
+                    }
+                  },
+                  "variant": {}
+                }
+              ],
+              "metadata": {}
             }
           ],
           "metadata": {}
@@ -1938,6 +2069,15 @@
       "value": "home",
       "label": "Page: Main",
       "type": "text",
+      "children": [],
+      "metadata": {}
+    },
+    {
+      "id": "3b03e5e0523",
+      "name": "variable",
+      "value": "rgba(123, 123, 123, 1)",
+      "label": "grey 2",
+      "type": "color",
       "children": [],
       "metadata": {}
     }
