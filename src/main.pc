@@ -1335,18 +1335,7 @@
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "Not a code replacement",
-                  "name": "override",
-                  "children": []
-                },
-                {
-                  "id": "d38cee0d1045",
-                  "variantId": null,
-                  "propertyName": "text",
-                  "targetIdPath": [
-                    "5acd717e402"
-                  ],
-                  "value": "Tandem doesn't aim to replace handwritten code entirely, but only the simple visual parts of your application.",
+                  "value": "Just the visuals",
                   "name": "override",
                   "children": []
                 },
@@ -1356,7 +1345,7 @@
                   "children": [
                     {
                       "id": "d38cee0d1437",
-                      "is": "d38cee0d1433",
+                      "is": "ed8f7e18780",
                       "label": "code icon",
                       "name": "component-instance",
                       "attributes": {},
@@ -1382,6 +1371,17 @@
                   ],
                   "metadata": {},
                   "name": "plug"
+                },
+                {
+                  "id": "ed8f7e18838",
+                  "variantId": null,
+                  "propertyName": "text",
+                  "targetIdPath": [
+                    "5acd717e402"
+                  ],
+                  "value": "Tandem is slimmed down to only cover simple HTML & CSS, and leaves more complex code to be written by hand.",
+                  "name": "override",
+                  "children": []
                 }
               ],
               "metadata": {},
@@ -1699,6 +1699,61 @@
           },
           "name": "override",
           "children": []
+        },
+        {
+          "id": "ed8f7e18707",
+          "is": "svg",
+          "name": "element",
+          "attributes": {
+            "xmlns": "http://www.w3.org/2000/svg",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            "viewBox": "0 0 60 52",
+            "version": "1.1",
+            "x": "0px",
+            "y": "0px"
+          },
+          "style": {},
+          "children": [
+            {
+              "id": "ed8f7e18697",
+              "is": "title",
+              "name": "element",
+              "attributes": {},
+              "style": {},
+              "children": [
+                {
+                  "id": "ed8f7e18696",
+                  "name": "text",
+                  "label": "19 -Painting- (Solid)",
+                  "value": "19 -Painting- (Solid)",
+                  "style": {},
+                  "children": [],
+                  "metadata": {}
+                }
+              ],
+              "metadata": {}
+            },
+            {
+              "id": "ed8f7e18699",
+              "is": "desc",
+              "name": "element",
+              "attributes": {},
+              "style": {},
+              "children": [
+                {
+                  "id": "ed8f7e18698",
+                  "name": "text",
+                  "label": "Created with Sketch.",
+                  "value": "Created with Sketch.",
+                  "style": {},
+                  "children": [],
+                  "metadata": {}
+                }
+              ],
+              "metadata": {}
+            }
+          ],
+          "metadata": {}
         }
       ],
       "metadata": {
