@@ -255,6 +255,409 @@
         }
       },
       "variant": {}
+    },
+    {
+      "label": "Building icin",
+      "is": "svg",
+      "style": {},
+      "attributes": {
+        "xmlns:x": "http://ns.adobe.com/Extensibility/1.0/",
+        "xmlns:i": "http://ns.adobe.com/AdobeIllustrator/10.0/",
+        "xmlns:graph": "http://ns.adobe.com/Graphs/1.0/",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "version": "1.1",
+        "x": "0px",
+        "y": "0px",
+        "viewBox": "0 0 100 100",
+        "style": "enable-background:new 0 0 100 100;",
+        "xml:space": "preserve"
+      },
+      "id": "d38cee0d1279",
+      "name": "component",
+      "children": [
+        {
+          "id": "d38cee0d1275",
+          "is": "switch",
+          "name": "element",
+          "attributes": {},
+          "style": {},
+          "children": [
+            {
+              "id": "d38cee0d1276",
+              "is": "foreignObject",
+              "name": "element",
+              "attributes": {
+                "requiredExtensions": "http://ns.adobe.com/AdobeIllustrator/10.0/",
+                "x": "0",
+                "y": "0",
+                "width": "1",
+                "height": "1"
+              },
+              "style": {},
+              "children": [],
+              "metadata": {}
+            },
+            {
+              "id": "d38cee0d1277",
+              "is": "g",
+              "name": "element",
+              "attributes": {
+                "i:extraneous": "self"
+              },
+              "style": {},
+              "children": [
+                {
+                  "id": "d38cee0d1278",
+                  "is": "path",
+                  "name": "element",
+                  "attributes": {
+                    "d": "M80.5,90.3V2.5H19.5v87.8h-6.8v7.2h74.7v-7.2H80.5z M60.2,90.3h-8.8V77.2h8.8V90.3z M67,9.3h6.8v6.8H67V9.3z M67,22.9h6.8    v6.8H67V22.9z M67,36.4h6.8v6.8H67V36.4z M67,50h6.8v6.8H67V50z M67,63.6h6.8v6.8H67V63.6z M53.4,9.3h6.8v6.8h-6.8V9.3z     M53.4,22.9h6.8v6.8h-6.8V22.9z M53.4,36.4h6.8v6.8h-6.8V36.4z M53.4,50h6.8v6.8h-6.8V50z M53.4,63.6h6.8v6.8h-6.8V63.6z     M39.8,9.3h6.8v6.8h-6.8V9.3z M39.8,22.9h6.8v6.8h-6.8V22.9z M39.8,36.4h6.8v6.8h-6.8V36.4z M39.8,50h6.8v6.8h-6.8V50z M39.8,63.6    h6.8v6.8h-6.8V63.6z M26.2,9.3H33v6.8h-6.8V9.3z M26.2,22.9H33v6.8h-6.8V22.9z M26.2,36.4H33v6.8h-6.8V36.4z M26.2,50H33v6.8h-6.8    V50z M26.2,63.6H33v6.8h-6.8V63.6z M39.8,77.2h8.8v13.1h-8.8V77.2z"
+                  },
+                  "style": {},
+                  "children": [],
+                  "metadata": {}
+                }
+              ],
+              "metadata": {}
+            }
+          ],
+          "metadata": {}
+        }
+      ],
+      "metadata": {
+        "bounds": {
+          "left": 606,
+          "top": 316,
+          "right": 1006,
+          "bottom": 616
+        }
+      },
+      "variant": {}
+    },
+    {
+      "label": "Deisgn tools icon",
+      "is": "svg",
+      "style": {},
+      "attributes": {
+        "xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "xmlns:cc": "http://creativecommons.org/ns#",
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xmlns:svg": "http://www.w3.org/2000/svg",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "xmlns:sodipodi": "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",
+        "xmlns:inkscape": "http://www.inkscape.org/namespaces/inkscape",
+        "viewBox": "0 0 32 32",
+        "version": "1.1",
+        "x": "0px",
+        "y": "0px"
+      },
+      "id": "d38cee0d1315",
+      "name": "component",
+      "children": [
+        {
+          "id": "d38cee0d1311",
+          "is": "g",
+          "name": "element",
+          "attributes": {
+            "transform": "translate(0,-1020.3622)"
+          },
+          "style": {},
+          "children": [
+            {
+              "id": "d38cee0d1312",
+              "is": "text",
+              "name": "element",
+              "attributes": {
+                "xml:space": "preserve",
+                "style": "letter-spacing:0px;word-spacing:0px;",
+                "x": "12",
+                "y": "1036.3622",
+                "font-style": "normal",
+                "font-weight": "normal",
+                "font-size": "11.25px",
+                "line-height": "125%",
+                "font-family": "Sans",
+                "fill": "#000000",
+                "fill-opacity": "1",
+                "stroke": "none"
+              },
+              "style": {},
+              "children": [
+                {
+                  "id": "d38cee0d1313",
+                  "is": "tspan",
+                  "name": "element",
+                  "attributes": {
+                    "x": "12",
+                    "y": "1036.3622"
+                  },
+                  "style": {},
+                  "children": [],
+                  "metadata": {}
+                }
+              ],
+              "metadata": {}
+            },
+            {
+              "id": "d38cee0d1314",
+              "is": "path",
+              "name": "element",
+              "attributes": {
+                "style": "color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate",
+                "d": "m 5.50391,1022.3617 c -0.27613,0 -0.49997,0.2239 -0.5,0.5 l 0,2.5 5,0 0,1 -5,0 0,2 4,0 0,1 -4,0 0,2 5,0 0,1 -5,0 0,2 4,0 0,1 -4,0 0,2 5,0 0,1 -5,0 0,2 4,0 0,1 -4,0 0,2 5,0 0,1 -5,0 0,2 4,0 0,1 -4,0 0,2.5 c 3e-5,0.2761 0.22387,0.5 0.5,0.5 l 8,0 c 0.27613,0 0.49997,-0.2239 0.5,-0.5 l 0,-27 c -3e-5,-0.2761 -0.22387,-0.5 -0.5,-0.5 l -8,0 z m 15.49218,0 c -1.09935,0 -2,0.9006 -2,2 l 0,2 8,0 0,-2 c 0,-1.0994 -0.90064,-2 -2,-2 l -4,0 z m -2,5 0,15.1699 2.63868,-1.1191 c 0.063,-0.026 0.13083,-0.04 0.19921,-0.039 0.11746,9e-4 0.23082,0.043 0.32032,0.1192 l 1.9375,1.6562 2.90429,-0.9687 0,-14.8184 -8,0 z m 2,1 1,0 0,12 -1,0 0,-12 z m 0.74415,14.0918 -2.48243,1.0527 3.29102,6.5801 c 0.18428,0.3686 0.71025,0.3686 0.89453,0 l 3.39844,-6.7969 -2.69727,0.8965 c -0.16637,0.057 -0.35026,0.022 -0.48437,-0.092 l -1.91992,-1.6405 z"
+              },
+              "style": {},
+              "children": [],
+              "metadata": {}
+            }
+          ],
+          "metadata": {}
+        }
+      ],
+      "metadata": {
+        "bounds": {
+          "left": -16,
+          "top": 21,
+          "right": 722,
+          "bottom": 670
+        }
+      },
+      "variant": {}
+    },
+    {
+      "label": "eye icon",
+      "is": "svg",
+      "style": {},
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "version": "1.1",
+        "x": "0px",
+        "y": "0px",
+        "viewBox": "0 0 45 45",
+        "enable-background": "new 0 0 45 45",
+        "xml:space": "preserve"
+      },
+      "id": "d38cee0d1345",
+      "name": "component",
+      "children": [
+        {
+          "id": "d38cee0d1343",
+          "is": "path",
+          "name": "element",
+          "attributes": {
+            "d": "M22.5,11.066c-8.463,0-15.848,4.601-19.801,11.435C6.652,29.334,14.037,33.934,22.5,33.934s15.847-4.6,19.801-11.433  C38.347,15.667,30.963,11.066,22.5,11.066z M22.5,31.379c-4.903,0-8.877-3.975-8.877-8.878c0-4.903,3.974-8.878,8.877-8.878  c4.902,0,8.878,3.975,8.878,8.878C31.378,27.404,27.402,31.379,22.5,31.379z"
+          },
+          "style": {},
+          "children": [],
+          "metadata": {}
+        },
+        {
+          "id": "d38cee0d1344",
+          "is": "path",
+          "name": "element",
+          "attributes": {
+            "d": "M26.26,21.197c-1.357,0-2.457-1.1-2.457-2.455c0-0.826,0.411-1.554,1.035-1.998c-0.722-0.295-1.51-0.459-2.338-0.459  c-3.434,0-6.216,2.782-6.216,6.216c0,3.433,2.782,6.216,6.216,6.216s6.217-2.783,6.217-6.216c0-0.828-0.165-1.616-0.459-2.339  C27.813,20.787,27.086,21.197,26.26,21.197z"
+          },
+          "style": {},
+          "children": [],
+          "metadata": {}
+        }
+      ],
+      "metadata": {
+        "bounds": {
+          "left": 1167,
+          "top": -650,
+          "right": 1567,
+          "bottom": -350
+        }
+      },
+      "variant": {}
+    },
+    {
+      "label": "Gem icon",
+      "is": "svg",
+      "style": {
+        "display": "block",
+        "height": "100%",
+        "margin-right": "auto",
+        "margin-left": "auto"
+      },
+      "attributes": {
+        "xmlns": "http://www.w3.org/2000/svg",
+        "xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "viewBox": "0 0 37 30",
+        "version": "1.1",
+        "x": "0px",
+        "y": "0px"
+      },
+      "id": "d38cee0d1374",
+      "name": "component",
+      "children": [
+        {
+          "id": "d38cee0d1366",
+          "is": "title",
+          "name": "element",
+          "attributes": {},
+          "style": {},
+          "children": [
+            {
+              "id": "d38cee0d1367",
+              "name": "text",
+              "label": "sketch",
+              "value": "sketch",
+              "style": {},
+              "children": [],
+              "metadata": {}
+            }
+          ],
+          "metadata": {}
+        },
+        {
+          "id": "d38cee0d1368",
+          "is": "desc",
+          "name": "element",
+          "attributes": {},
+          "style": {},
+          "children": [
+            {
+              "id": "d38cee0d1369",
+              "name": "text",
+              "label": "Created with Sketch.",
+              "value": "Created with Sketch.",
+              "style": {},
+              "children": [],
+              "metadata": {}
+            }
+          ],
+          "metadata": {}
+        },
+        {
+          "id": "d38cee0d1370",
+          "is": "g",
+          "name": "element",
+          "attributes": {
+            "stroke": "none",
+            "stroke-width": "1",
+            "fill": "none",
+            "fill-rule": "evenodd"
+          },
+          "style": {},
+          "children": [
+            {
+              "id": "d38cee0d1371",
+              "is": "g",
+              "name": "element",
+              "attributes": {
+                "transform": "translate(-282.000000, -180.000000)",
+                "fill": "#000000"
+              },
+              "style": {
+                "display": "block"
+              },
+              "children": [
+                {
+                  "id": "d38cee0d1372",
+                  "is": "g",
+                  "name": "element",
+                  "attributes": {
+                    "transform": "translate(282.000000, 180.000000)"
+                  },
+                  "style": {},
+                  "children": [
+                    {
+                      "id": "d38cee0d1373",
+                      "is": "path",
+                      "name": "element",
+                      "attributes": {
+                        "d": "M28.9155,7.1312 L29.2665,4.9272 L31.2285,7.1312 L28.9155,7.1312 Z M28.1295,10.1312 L31.4385,10.1312 L24.2745,18.7502 L28.1295,10.1312 Z M8.6125,10.1312 L12.4405,18.5422 L5.4495,10.1312 L8.6125,10.1312 Z M10.6505,5.9112 L10.2265,3.2442 L14.0355,3.2442 L10.6505,5.9112 Z M26.0765,5.8802 L22.7115,3.2442 L26.4965,3.2442 L26.0765,5.8802 Z M13.9495,7.1312 L18.3655,3.6522 L22.8085,7.1312 L13.9495,7.1312 Z M24.8435,10.1312 L18.4325,24.4642 L11.9095,10.1312 L24.8435,10.1312 Z M7.4815,5.0852 L7.8075,7.1312 L5.6605,7.1312 L7.4815,5.0852 Z M35.7255,7.6712 L29.5615,0.7472 C29.2765,0.4272 28.8695,0.2442 28.4405,0.2442 L18.3605,0.2442 L18.3595,0.2442 L8.4475,0.2442 C8.0195,0.2442 7.6125,0.4272 7.3275,0.7472 L1.1635,7.6712 C0.6695,8.2252 0.6555,9.0562 1.1295,9.6272 L17.2915,29.0692 C17.2955,29.0742 17.3005,29.0782 17.3045,29.0822 C17.3215,29.1032 17.3435,29.1182 17.3615,29.1372 C17.4325,29.2132 17.5095,29.2802 17.5935,29.3382 C17.6275,29.3622 17.6625,29.3812 17.6985,29.4022 C17.7785,29.4482 17.8615,29.4862 17.9475,29.5172 C17.9845,29.5302 18.0205,29.5442 18.0585,29.5542 C18.1835,29.5882 18.3125,29.6102 18.4445,29.6102 L18.4495,29.6102 C18.4545,29.6102 18.4585,29.6082 18.4635,29.6082 C18.5905,29.6072 18.7135,29.5862 18.8345,29.5532 C18.8725,29.5432 18.9085,29.5282 18.9455,29.5152 C19.0335,29.4842 19.1155,29.4452 19.1955,29.3992 C19.2305,29.3782 19.2655,29.3592 19.2985,29.3362 C19.3865,29.2752 19.4675,29.2042 19.5415,29.1242 C19.5565,29.1082 19.5735,29.0962 19.5875,29.0792 C19.5905,29.0762 19.5945,29.0732 19.5975,29.0692 L35.7585,9.6272 C36.2335,9.0562 36.2195,8.2252 35.7255,7.6712 L35.7255,7.6712 Z"
+                      },
+                      "style": {},
+                      "children": [],
+                      "metadata": {}
+                    }
+                  ],
+                  "metadata": {}
+                }
+              ],
+              "metadata": {}
+            }
+          ],
+          "metadata": {}
+        }
+      ],
+      "metadata": {
+        "bounds": {
+          "left": 231,
+          "top": -60,
+          "right": 292.65625,
+          "bottom": -10
+        }
+      },
+      "variant": {}
+    },
+    {
+      "label": "code icon",
+      "is": "svg",
+      "style": {},
+      "attributes": {
+        "xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "xmlns:cc": "http://creativecommons.org/ns#",
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xmlns:svg": "http://www.w3.org/2000/svg",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "xmlns:sodipodi": "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",
+        "xmlns:inkscape": "http://www.inkscape.org/namespaces/inkscape",
+        "version": "1.1",
+        "x": "0px",
+        "y": "0px",
+        "viewBox": "0 0 100 100"
+      },
+      "id": "d38cee0d1433",
+      "name": "component",
+      "children": [
+        {
+          "id": "d38cee0d1431",
+          "is": "g",
+          "name": "element",
+          "attributes": {
+            "transform": "translate(0,-952.36218)"
+          },
+          "style": {},
+          "children": [
+            {
+              "id": "d38cee0d1432",
+              "is": "path",
+              "name": "element",
+              "attributes": {
+                "style": "text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;color:#000000;enable-background:accumulate;",
+                "d": "m 52.625,977.3153 -13,48.0001 7.75,2.0937 13,-48.00005 -7.75,-2.09375 z m -19.9375,4.78125 -24.0000002,17.00001 -4.5937,3.28124 4.5937,3.25 24.0000002,17 4.625,-6.5312 -19.375,-13.7188 19.375,-13.75 -4.625,-6.53125 z m 34.625,0 -4.625,6.53125 19.375,13.75 -19.375,13.7188 4.625,6.5312 24,-17 4.5937,-3.25 -4.5937,-3.28124 -24,-17.00001 z",
+                "fill": "#000000",
+                "fill-opacity": "1",
+                "stroke": "none",
+                "marker": "none",
+                "visibility": "visible",
+                "display": "inline",
+                "overflow": "visible"
+              },
+              "style": {},
+              "children": [],
+              "metadata": {}
+            }
+          ],
+          "metadata": {}
+        }
+      ],
+      "metadata": {
+        "bounds": {
+          "left": 569,
+          "top": -592,
+          "right": 969,
+          "bottom": -292
+        }
+      },
+      "variant": {}
     }
   ]
 }

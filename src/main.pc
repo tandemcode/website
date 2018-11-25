@@ -566,7 +566,7 @@
               "style": {
                 "overflow": "hidden",
                 "display": "block",
-                "height": "800px"
+                "height": "400px"
               },
               "children": [
                 {
@@ -801,7 +801,7 @@
                       "targetIdPath": [
                         "5acd717e215"
                       ],
-                      "value": "UIs that work everywhere",
+                      "value": "Re-use UIs",
                       "name": "override",
                       "children": []
                     },
@@ -900,8 +900,8 @@
                   "children": [
                     {
                       "id": "5acd717e908",
-                      "is": "svg",
-                      "name": "element",
+                      "is": "d38cee0d1315",
+                      "name": "component-instance",
                       "attributes": {
                         "xmlns": "http://www.w3.org/2000/svg",
                         "xmlns:xlink": "http://www.w3.org/1999/xlink",
@@ -918,30 +918,7 @@
                         "margin-right": "auto",
                         "margin-left": "auto"
                       },
-                      "children": [
-                        {
-                          "id": "5acd717e909",
-                          "is": "path",
-                          "name": "element",
-                          "attributes": {
-                            "d": "M22.5,11.066c-8.463,0-15.848,4.601-19.801,11.435C6.652,29.334,14.037,33.934,22.5,33.934s15.847-4.6,19.801-11.433  C38.347,15.667,30.963,11.066,22.5,11.066z M22.5,31.379c-4.903,0-8.877-3.975-8.877-8.878c0-4.903,3.974-8.878,8.877-8.878  c4.902,0,8.878,3.975,8.878,8.878C31.378,27.404,27.402,31.379,22.5,31.379z"
-                          },
-                          "style": {},
-                          "children": [],
-                          "metadata": {}
-                        },
-                        {
-                          "id": "5acd717e910",
-                          "is": "path",
-                          "name": "element",
-                          "attributes": {
-                            "d": "M26.26,21.197c-1.357,0-2.457-1.1-2.457-2.455c0-0.826,0.411-1.554,1.035-1.998c-0.722-0.295-1.51-0.459-2.338-0.459  c-3.434,0-6.216,2.782-6.216,6.216c0,3.433,2.782,6.216,6.216,6.216s6.217-2.783,6.217-6.216c0-0.828-0.165-1.616-0.459-2.339  C27.813,20.787,27.086,21.197,26.26,21.197z"
-                          },
-                          "style": {},
-                          "children": [],
-                          "metadata": {}
-                        }
-                      ],
+                      "children": [],
                       "metadata": {
                         "bounds": {
                           "left": -623,
@@ -949,7 +926,8 @@
                           "right": -223,
                           "bottom": 1146
                         }
-                      }
+                      },
+                      "variant": {}
                     }
                   ],
                   "metadata": {},
@@ -973,7 +951,7 @@
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Color pickers, measurement tooling, responsive design, zooming, and other features to help  you build UIs more precisely. ",
+                  "value": "Color pickers, measurement tooling, responsive design, zooming, and other features are there to help you create UIs more precisely. ",
                   "name": "override",
                   "children": []
                 }
@@ -1010,6 +988,39 @@
                   "value": "Like a glorified web inspector, with  full transparency into HTML & CSS creation. \n",
                   "name": "override",
                   "children": []
+                },
+                {
+                  "slotId": "5acd717e564",
+                  "id": "d38cee0d1350",
+                  "children": [
+                    {
+                      "id": "d38cee0d1349",
+                      "is": "d38cee0d1345",
+                      "label": "eye icon",
+                      "name": "component-instance",
+                      "attributes": {},
+                      "style": {
+                        "display": "block",
+                        "height": "100%",
+                        "margin-right": "auto",
+                        "margin-left": "auto",
+                        "margin-bottom": "0px",
+                        "margin-top": "0px"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "bounds": {
+                          "left": 1167,
+                          "top": -650,
+                          "right": 1567,
+                          "bottom": -350
+                        }
+                      },
+                      "variant": {}
+                    }
+                  ],
+                  "metadata": {},
+                  "name": "plug"
                 }
               ],
               "metadata": {},
@@ -1033,124 +1044,17 @@
                   "id": "5acd717e783",
                   "children": [
                     {
-                      "id": "5acd717e826",
-                      "is": "svg",
-                      "name": "element",
-                      "attributes": {
-                        "xmlns": "http://www.w3.org/2000/svg",
-                        "xmlns:xlink": "http://www.w3.org/1999/xlink",
-                        "viewBox": "0 0 37 30",
-                        "version": "1.1",
-                        "x": "0px",
-                        "y": "0px"
-                      },
+                      "id": "d38cee0d1375",
+                      "is": "d38cee0d1374",
+                      "label": "Gem icon",
+                      "name": "component-instance",
+                      "attributes": {},
                       "style": {
-                        "display": "block",
-                        "height": "100%",
-                        "margin-right": "auto",
-                        "margin-left": "auto"
+                        "height": "80%"
                       },
-                      "children": [
-                        {
-                          "id": "5acd717e827",
-                          "is": "title",
-                          "name": "element",
-                          "attributes": {},
-                          "style": {},
-                          "children": [
-                            {
-                              "id": "5acd717e828",
-                              "name": "text",
-                              "label": "sketch",
-                              "value": "sketch",
-                              "style": {},
-                              "children": [],
-                              "metadata": {}
-                            }
-                          ],
-                          "metadata": {}
-                        },
-                        {
-                          "id": "5acd717e829",
-                          "is": "desc",
-                          "name": "element",
-                          "attributes": {},
-                          "style": {},
-                          "children": [
-                            {
-                              "id": "5acd717e830",
-                              "name": "text",
-                              "label": "Created with Sketch.",
-                              "value": "Created with Sketch.",
-                              "style": {},
-                              "children": [],
-                              "metadata": {}
-                            }
-                          ],
-                          "metadata": {}
-                        },
-                        {
-                          "id": "5acd717e831",
-                          "is": "g",
-                          "name": "element",
-                          "attributes": {
-                            "stroke": "none",
-                            "stroke-width": "1",
-                            "fill": "none",
-                            "fill-rule": "evenodd"
-                          },
-                          "style": {},
-                          "children": [
-                            {
-                              "id": "5acd717e832",
-                              "is": "g",
-                              "name": "element",
-                              "attributes": {
-                                "transform": "translate(-282.000000, -180.000000)",
-                                "fill": "#000000"
-                              },
-                              "style": {
-                                "display": "block"
-                              },
-                              "children": [
-                                {
-                                  "id": "5acd717e833",
-                                  "is": "g",
-                                  "name": "element",
-                                  "attributes": {
-                                    "transform": "translate(282.000000, 180.000000)"
-                                  },
-                                  "style": {},
-                                  "children": [
-                                    {
-                                      "id": "5acd717e834",
-                                      "is": "path",
-                                      "name": "element",
-                                      "attributes": {
-                                        "d": "M28.9155,7.1312 L29.2665,4.9272 L31.2285,7.1312 L28.9155,7.1312 Z M28.1295,10.1312 L31.4385,10.1312 L24.2745,18.7502 L28.1295,10.1312 Z M8.6125,10.1312 L12.4405,18.5422 L5.4495,10.1312 L8.6125,10.1312 Z M10.6505,5.9112 L10.2265,3.2442 L14.0355,3.2442 L10.6505,5.9112 Z M26.0765,5.8802 L22.7115,3.2442 L26.4965,3.2442 L26.0765,5.8802 Z M13.9495,7.1312 L18.3655,3.6522 L22.8085,7.1312 L13.9495,7.1312 Z M24.8435,10.1312 L18.4325,24.4642 L11.9095,10.1312 L24.8435,10.1312 Z M7.4815,5.0852 L7.8075,7.1312 L5.6605,7.1312 L7.4815,5.0852 Z M35.7255,7.6712 L29.5615,0.7472 C29.2765,0.4272 28.8695,0.2442 28.4405,0.2442 L18.3605,0.2442 L18.3595,0.2442 L8.4475,0.2442 C8.0195,0.2442 7.6125,0.4272 7.3275,0.7472 L1.1635,7.6712 C0.6695,8.2252 0.6555,9.0562 1.1295,9.6272 L17.2915,29.0692 C17.2955,29.0742 17.3005,29.0782 17.3045,29.0822 C17.3215,29.1032 17.3435,29.1182 17.3615,29.1372 C17.4325,29.2132 17.5095,29.2802 17.5935,29.3382 C17.6275,29.3622 17.6625,29.3812 17.6985,29.4022 C17.7785,29.4482 17.8615,29.4862 17.9475,29.5172 C17.9845,29.5302 18.0205,29.5442 18.0585,29.5542 C18.1835,29.5882 18.3125,29.6102 18.4445,29.6102 L18.4495,29.6102 C18.4545,29.6102 18.4585,29.6082 18.4635,29.6082 C18.5905,29.6072 18.7135,29.5862 18.8345,29.5532 C18.8725,29.5432 18.9085,29.5282 18.9455,29.5152 C19.0335,29.4842 19.1155,29.4452 19.1955,29.3992 C19.2305,29.3782 19.2655,29.3592 19.2985,29.3362 C19.3865,29.2752 19.4675,29.2042 19.5415,29.1242 C19.5565,29.1082 19.5735,29.0962 19.5875,29.0792 C19.5905,29.0762 19.5945,29.0732 19.5975,29.0692 L35.7585,9.6272 C36.2335,9.0562 36.2195,8.2252 35.7255,7.6712 L35.7255,7.6712 Z"
-                                      },
-                                      "style": {},
-                                      "children": [],
-                                      "metadata": {}
-                                    }
-                                  ],
-                                  "metadata": {}
-                                }
-                              ],
-                              "metadata": {}
-                            }
-                          ],
-                          "metadata": {}
-                        }
-                      ],
-                      "metadata": {
-                        "bounds": {
-                          "left": 140,
-                          "top": 498,
-                          "right": 540,
-                          "bottom": 798
-                        }
-                      }
+                      "children": [],
+                      "metadata": {},
+                      "variant": {}
                     }
                   ],
                   "metadata": {},
@@ -1163,7 +1067,7 @@
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "Link external designs",
+                  "value": "Works with other designers",
                   "name": "override",
                   "children": []
                 },
@@ -1226,7 +1130,7 @@
                       },
                       "style": {
                         "display": "block",
-                        "height": "100%",
+                        "height": "80%",
                         "margin-right": "auto",
                         "margin-left": "auto"
                       },
@@ -1251,7 +1155,7 @@
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "Safety tools\n",
+                  "value": "Safety tools",
                   "name": "override",
                   "children": []
                 },
@@ -1262,7 +1166,7 @@
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Tandem comes with tools for typed definition file generation, and visual regression testing to ensure that you build components safely.",
+                  "value": "Typed definition file generation, and visual regression testing ensures that you build components that safely integrate with handwritten code. ",
                   "name": "override",
                   "children": []
                 }
@@ -1282,24 +1186,13 @@
               },
               "children": [
                 {
-                  "id": "5acd717e460",
-                  "variantId": null,
-                  "propertyName": "text",
-                  "targetIdPath": [
-                    "5acd717e401"
-                  ],
-                  "value": "Designed for scale",
-                  "name": "override",
-                  "children": []
-                },
-                {
                   "slotId": "5acd717e564",
                   "id": "5acd717e759",
                   "children": [
                     {
                       "id": "5acd717e764",
-                      "is": "svg",
-                      "name": "element",
+                      "is": "d38cee0d1279",
+                      "name": "component-instance",
                       "attributes": {
                         "xmlns": "http://www.w3.org/2000/svg",
                         "xmlns:xlink": "http://www.w3.org/1999/xlink",
@@ -1313,65 +1206,11 @@
                       },
                       "style": {
                         "display": "block",
-                        "height": "100%",
+                        "height": "90%",
                         "margin-right": "auto",
                         "margin-left": "auto"
                       },
-                      "children": [
-                        {
-                          "id": "5acd717e765",
-                          "is": "defs",
-                          "name": "element",
-                          "attributes": {},
-                          "style": {},
-                          "children": [
-                            {
-                              "id": "5acd717e766",
-                              "is": "style",
-                              "name": "element",
-                              "attributes": {
-                                "type": "text/css"
-                              },
-                              "style": {},
-                              "children": [
-                                {
-                                  "id": "5acd717e767",
-                                  "name": "text",
-                                  "label": "\n   \n    .fil0 {fill:black}\n   \n  ",
-                                  "value": "\n   \n    .fil0 {fill:black}\n   \n  ",
-                                  "style": {},
-                                  "children": [],
-                                  "metadata": {}
-                                }
-                              ],
-                              "metadata": {}
-                            }
-                          ],
-                          "metadata": {}
-                        },
-                        {
-                          "id": "5acd717e768",
-                          "is": "g",
-                          "name": "element",
-                          "attributes": {},
-                          "style": {},
-                          "children": [
-                            {
-                              "id": "5acd717e769",
-                              "is": "path",
-                              "name": "element",
-                              "attributes": {
-                                "class": "fil0",
-                                "d": "M60.3548 25.9467l6.88824 0 0 -3.02483 7.96542 0 0 3.02483 3.83861 0 0 66.2675 2.80986 0 0 2.78742 -63.7174 0 0 -2.78742 2.81105 0 0 -84.2263 4.16224 0 0 -2.98703 7.16817 0 0 2.98703 28.0738 0 0 17.9588zm-18.769 42.0995l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm16.473 -16.0135l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm16.473 -16.0123l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm16.473 25.564l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm16.473 -16.0123l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm16.473 -16.0123l4.2898 0 0 4.28862 -4.2898 0 0 -4.28862zm-5.49099 0l4.2898 0 0 4.28862 -4.2898 0 0 -4.28862zm-5.49099 0l4.2898 0 0 4.28862 -4.2898 0 0 -4.28862zm-5.49099 0l4.2898 0 0 4.28862 -4.2898 0 0 -4.28862zm0 -9.55165l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm-27.4549 -6.46186l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm5.49099 0l4.2898 0 0 4.2898 -4.2898 0 0 -4.2898zm10.7706 17.5029l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544zm9.23747 45.6393l3.60948 0 0 9.0544 -3.60948 0 0 -9.0544zm0 -11.4095l3.60948 0 0 9.0544 -3.60948 0 0 -9.0544zm0 -11.4095l3.60948 0 0 9.0544 -3.60948 0 0 -9.0544zm0 -11.4095l3.60948 0 0 9.05322 -3.60948 0 0 -9.05322zm-4.61815 34.2286l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544zm0 -11.4095l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544zm0 -11.4095l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544zm0 -11.4095l3.6083 0 0 9.05322 -3.6083 0 0 -9.05322zm-4.61933 34.2286l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544zm0 -11.4095l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544zm0 -11.4095l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544zm0 -11.4095l3.6083 0 0 9.05322 -3.6083 0 0 -9.05322zm-9.23747 -11.4107l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544zm0 11.4107l3.6083 0 0 9.05322 -3.6083 0 0 -9.05322zm0 11.4095l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544zm0 11.4095l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544zm0 11.4095l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544zm18.4749 -45.6393l3.60948 0 0 9.0544 -3.60948 0 0 -9.0544zm-4.61815 0l3.6083 0 0 9.0544 -3.6083 0 0 -9.0544z"
-                              },
-                              "style": {},
-                              "children": [],
-                              "metadata": {}
-                            }
-                          ],
-                          "metadata": {}
-                        }
-                      ],
+                      "children": [],
                       "metadata": {
                         "bounds": {
                           "left": -781,
@@ -1379,20 +1218,32 @@
                           "right": -381,
                           "bottom": 1710
                         }
-                      }
+                      },
+                      "variant": {}
                     }
                   ],
                   "metadata": {},
                   "name": "plug"
                 },
                 {
-                  "id": "d38cee0d543",
+                  "id": "d38cee0d1053",
+                  "variantId": null,
+                  "propertyName": "text",
+                  "targetIdPath": [
+                    "5acd717e401"
+                  ],
+                  "value": "Scalability in mind",
+                  "name": "override",
+                  "children": []
+                },
+                {
+                  "id": "d38cee0d1058",
                   "variantId": null,
                   "propertyName": "text",
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Covers most of your HTML & CSS creation, and can handle large project sizes. Take a look at the Tandem source code as an example.",
+                  "value": "Software development is hard, so scalability is the number one priority to ensure that you can build any sized project.",
                   "name": "override",
                   "children": []
                 }
@@ -1423,15 +1274,48 @@
                   "children": []
                 },
                 {
-                  "id": "d38cee0d720",
+                  "id": "d38cee0d1045",
                   "variantId": null,
                   "propertyName": "text",
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Building software is hard, and we believe that handwritten code is the best medium for most of that. Tandem only covers the visual parts of your application, and simple behavior.",
+                  "value": "Tandem doesn't aim to replace handwritten code entirely, but only the simple visual parts of your application.",
                   "name": "override",
                   "children": []
+                },
+                {
+                  "slotId": "5acd717e564",
+                  "id": "d38cee0d1438",
+                  "children": [
+                    {
+                      "id": "d38cee0d1437",
+                      "is": "d38cee0d1433",
+                      "label": "code icon",
+                      "name": "component-instance",
+                      "attributes": {},
+                      "style": {
+                        "display": "block",
+                        "height": "100%",
+                        "margin-top": "0px",
+                        "margin-right": "auto",
+                        "margin-bottom": "0px",
+                        "margin-left": "auto"
+                      },
+                      "children": [],
+                      "metadata": {
+                        "bounds": {
+                          "left": 569,
+                          "top": -592,
+                          "right": 969,
+                          "bottom": -292
+                        }
+                      },
+                      "variant": {}
+                    }
+                  ],
+                  "metadata": {},
+                  "name": "plug"
                 }
               ],
               "metadata": {},
@@ -1855,11 +1739,12 @@
           "attributes": {},
           "style": {
             "box-sizing": "border-box",
-            "display": "inline-block",
+            "display": "flex",
             "height": "50px",
             "text-align": "center",
             "width": "100%",
-            "margin-bottom": "8px"
+            "margin-bottom": "8px",
+            "align-items": "flex-end"
           },
           "children": [
             {
@@ -1922,7 +1807,7 @@
           "label": "Header",
           "value": "Title",
           "style": {
-            "font-size": "24px",
+            "font-size": "20px",
             "display": "block",
             "text-align": "center",
             "padding-bottom": "8px"
