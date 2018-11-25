@@ -713,7 +713,30 @@
                   "name": "component-instance",
                   "attributes": {},
                   "style": {},
-                  "children": [],
+                  "children": [
+                    {
+                      "id": "26fbff781170",
+                      "variantId": null,
+                      "propertyName": "text",
+                      "targetIdPath": [
+                        "5acd717e216"
+                      ],
+                      "value": "No need for design to code handoffs, Tandem allows you to safely build production-grade web components visually. Finally designers & coders can work together in the same codebase.",
+                      "name": "override",
+                      "children": []
+                    },
+                    {
+                      "id": "d38cee0d731",
+                      "variantId": null,
+                      "propertyName": "text",
+                      "targetIdPath": [
+                        "5acd717e215"
+                      ],
+                      "value": "Give designers control",
+                      "name": "override",
+                      "children": []
+                    }
+                  ],
                   "metadata": {},
                   "variant": {}
                 },
@@ -732,7 +755,18 @@
                       "targetIdPath": [
                         "5acd717e215"
                       ],
-                      "value": "Integrates with code",
+                      "value": "Works with code",
+                      "name": "override",
+                      "children": []
+                    },
+                    {
+                      "id": "26fbff781182",
+                      "variantId": null,
+                      "propertyName": "text",
+                      "targetIdPath": [
+                        "5acd717e216"
+                      ],
+                      "value": "Components can compile to PHP, React, Static HTML, and many other languages, so you can easily integrate them into your existing project.",
                       "name": "override",
                       "children": []
                     }
@@ -749,17 +783,6 @@
                   "style": {},
                   "children": [
                     {
-                      "id": "5acd717e1019",
-                      "variantId": null,
-                      "propertyName": "text",
-                      "targetIdPath": [
-                        "5acd717e215"
-                      ],
-                      "value": "Feels like an IDE\n",
-                      "name": "override",
-                      "children": []
-                    },
-                    {
                       "id": "5acd717e1020",
                       "propertyName": "style",
                       "targetIdPath": [
@@ -768,6 +791,28 @@
                       "value": {
                         "text-align": "center"
                       },
+                      "name": "override",
+                      "children": []
+                    },
+                    {
+                      "id": "26fbff781173",
+                      "variantId": null,
+                      "propertyName": "text",
+                      "targetIdPath": [
+                        "5acd717e215"
+                      ],
+                      "value": "UIs that work everywhere",
+                      "name": "override",
+                      "children": []
+                    },
+                    {
+                      "id": "d38cee0d483",
+                      "variantId": null,
+                      "propertyName": "text",
+                      "targetIdPath": [
+                        "5acd717e216"
+                      ],
+                      "value": "Components are decoupled from code, so you can re-use them across multiple platforms and languages. ",
                       "name": "override",
                       "children": []
                     }
@@ -839,9 +884,107 @@
           },
           "children": [
             {
+              "id": "5acd717e444",
+              "label": "Precision feature",
+              "is": "5acd717e403",
+              "name": "component-instance",
+              "attributes": {},
+              "style": {
+                "box-sizing": "border-box",
+                "display": "inline-block"
+              },
+              "children": [
+                {
+                  "slotId": "5acd717e564",
+                  "id": "5acd717e903",
+                  "children": [
+                    {
+                      "id": "5acd717e908",
+                      "is": "svg",
+                      "name": "element",
+                      "attributes": {
+                        "xmlns": "http://www.w3.org/2000/svg",
+                        "xmlns:xlink": "http://www.w3.org/1999/xlink",
+                        "version": "1.1",
+                        "x": "0px",
+                        "y": "0px",
+                        "viewBox": "0 0 45 45",
+                        "enable-background": "new 0 0 45 45",
+                        "xml:space": "preserve"
+                      },
+                      "style": {
+                        "display": "block",
+                        "height": "100%",
+                        "margin-right": "auto",
+                        "margin-left": "auto"
+                      },
+                      "children": [
+                        {
+                          "id": "5acd717e909",
+                          "is": "path",
+                          "name": "element",
+                          "attributes": {
+                            "d": "M22.5,11.066c-8.463,0-15.848,4.601-19.801,11.435C6.652,29.334,14.037,33.934,22.5,33.934s15.847-4.6,19.801-11.433  C38.347,15.667,30.963,11.066,22.5,11.066z M22.5,31.379c-4.903,0-8.877-3.975-8.877-8.878c0-4.903,3.974-8.878,8.877-8.878  c4.902,0,8.878,3.975,8.878,8.878C31.378,27.404,27.402,31.379,22.5,31.379z"
+                          },
+                          "style": {},
+                          "children": [],
+                          "metadata": {}
+                        },
+                        {
+                          "id": "5acd717e910",
+                          "is": "path",
+                          "name": "element",
+                          "attributes": {
+                            "d": "M26.26,21.197c-1.357,0-2.457-1.1-2.457-2.455c0-0.826,0.411-1.554,1.035-1.998c-0.722-0.295-1.51-0.459-2.338-0.459  c-3.434,0-6.216,2.782-6.216,6.216c0,3.433,2.782,6.216,6.216,6.216s6.217-2.783,6.217-6.216c0-0.828-0.165-1.616-0.459-2.339  C27.813,20.787,27.086,21.197,26.26,21.197z"
+                          },
+                          "style": {},
+                          "children": [],
+                          "metadata": {}
+                        }
+                      ],
+                      "metadata": {
+                        "bounds": {
+                          "left": -623,
+                          "top": 846,
+                          "right": -223,
+                          "bottom": 1146
+                        }
+                      }
+                    }
+                  ],
+                  "metadata": {},
+                  "name": "plug"
+                },
+                {
+                  "id": "d38cee0d747",
+                  "variantId": null,
+                  "propertyName": "text",
+                  "targetIdPath": [
+                    "5acd717e401"
+                  ],
+                  "value": "HTML & CSS with precision",
+                  "name": "override",
+                  "children": []
+                },
+                {
+                  "id": "d38cee0d755",
+                  "variantId": null,
+                  "propertyName": "text",
+                  "targetIdPath": [
+                    "5acd717e402"
+                  ],
+                  "value": "Color pickers, measurement tooling, responsive design, zooming, and other features to help  you build UIs more precisely. ",
+                  "name": "override",
+                  "children": []
+                }
+              ],
+              "metadata": {},
+              "variant": {}
+            },
+            {
               "id": "5acd717e456",
               "is": "5acd717e403",
-              "label": "Feature",
+              "label": "Like a web inspector",
               "name": "component-instance",
               "attributes": {},
               "style": {},
@@ -853,7 +996,7 @@
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "Responsive",
+                  "value": "Like a web inspector",
                   "name": "override",
                   "children": []
                 },
@@ -864,7 +1007,7 @@
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Responsive tooling allows you to build UIs for all shapes and sizes.",
+                  "value": "Like a glorified web inspector, with  full transparency into HTML & CSS creation. \n",
                   "name": "override",
                   "children": []
                 }
@@ -875,8 +1018,8 @@
               }
             },
             {
-              "id": "5acd717e457",
-              "label": "Feature",
+              "id": "5acd717e392",
+              "label": "Link files feature",
               "is": "5acd717e403",
               "name": "component-instance",
               "attributes": {},
@@ -886,16 +1029,190 @@
               },
               "children": [
                 {
-                  "id": "5acd717e458",
+                  "slotId": "5acd717e564",
+                  "id": "5acd717e783",
+                  "children": [
+                    {
+                      "id": "5acd717e826",
+                      "is": "svg",
+                      "name": "element",
+                      "attributes": {
+                        "xmlns": "http://www.w3.org/2000/svg",
+                        "xmlns:xlink": "http://www.w3.org/1999/xlink",
+                        "viewBox": "0 0 37 30",
+                        "version": "1.1",
+                        "x": "0px",
+                        "y": "0px"
+                      },
+                      "style": {
+                        "display": "block",
+                        "height": "100%",
+                        "margin-right": "auto",
+                        "margin-left": "auto"
+                      },
+                      "children": [
+                        {
+                          "id": "5acd717e827",
+                          "is": "title",
+                          "name": "element",
+                          "attributes": {},
+                          "style": {},
+                          "children": [
+                            {
+                              "id": "5acd717e828",
+                              "name": "text",
+                              "label": "sketch",
+                              "value": "sketch",
+                              "style": {},
+                              "children": [],
+                              "metadata": {}
+                            }
+                          ],
+                          "metadata": {}
+                        },
+                        {
+                          "id": "5acd717e829",
+                          "is": "desc",
+                          "name": "element",
+                          "attributes": {},
+                          "style": {},
+                          "children": [
+                            {
+                              "id": "5acd717e830",
+                              "name": "text",
+                              "label": "Created with Sketch.",
+                              "value": "Created with Sketch.",
+                              "style": {},
+                              "children": [],
+                              "metadata": {}
+                            }
+                          ],
+                          "metadata": {}
+                        },
+                        {
+                          "id": "5acd717e831",
+                          "is": "g",
+                          "name": "element",
+                          "attributes": {
+                            "stroke": "none",
+                            "stroke-width": "1",
+                            "fill": "none",
+                            "fill-rule": "evenodd"
+                          },
+                          "style": {},
+                          "children": [
+                            {
+                              "id": "5acd717e832",
+                              "is": "g",
+                              "name": "element",
+                              "attributes": {
+                                "transform": "translate(-282.000000, -180.000000)",
+                                "fill": "#000000"
+                              },
+                              "style": {
+                                "display": "block"
+                              },
+                              "children": [
+                                {
+                                  "id": "5acd717e833",
+                                  "is": "g",
+                                  "name": "element",
+                                  "attributes": {
+                                    "transform": "translate(282.000000, 180.000000)"
+                                  },
+                                  "style": {},
+                                  "children": [
+                                    {
+                                      "id": "5acd717e834",
+                                      "is": "path",
+                                      "name": "element",
+                                      "attributes": {
+                                        "d": "M28.9155,7.1312 L29.2665,4.9272 L31.2285,7.1312 L28.9155,7.1312 Z M28.1295,10.1312 L31.4385,10.1312 L24.2745,18.7502 L28.1295,10.1312 Z M8.6125,10.1312 L12.4405,18.5422 L5.4495,10.1312 L8.6125,10.1312 Z M10.6505,5.9112 L10.2265,3.2442 L14.0355,3.2442 L10.6505,5.9112 Z M26.0765,5.8802 L22.7115,3.2442 L26.4965,3.2442 L26.0765,5.8802 Z M13.9495,7.1312 L18.3655,3.6522 L22.8085,7.1312 L13.9495,7.1312 Z M24.8435,10.1312 L18.4325,24.4642 L11.9095,10.1312 L24.8435,10.1312 Z M7.4815,5.0852 L7.8075,7.1312 L5.6605,7.1312 L7.4815,5.0852 Z M35.7255,7.6712 L29.5615,0.7472 C29.2765,0.4272 28.8695,0.2442 28.4405,0.2442 L18.3605,0.2442 L18.3595,0.2442 L8.4475,0.2442 C8.0195,0.2442 7.6125,0.4272 7.3275,0.7472 L1.1635,7.6712 C0.6695,8.2252 0.6555,9.0562 1.1295,9.6272 L17.2915,29.0692 C17.2955,29.0742 17.3005,29.0782 17.3045,29.0822 C17.3215,29.1032 17.3435,29.1182 17.3615,29.1372 C17.4325,29.2132 17.5095,29.2802 17.5935,29.3382 C17.6275,29.3622 17.6625,29.3812 17.6985,29.4022 C17.7785,29.4482 17.8615,29.4862 17.9475,29.5172 C17.9845,29.5302 18.0205,29.5442 18.0585,29.5542 C18.1835,29.5882 18.3125,29.6102 18.4445,29.6102 L18.4495,29.6102 C18.4545,29.6102 18.4585,29.6082 18.4635,29.6082 C18.5905,29.6072 18.7135,29.5862 18.8345,29.5532 C18.8725,29.5432 18.9085,29.5282 18.9455,29.5152 C19.0335,29.4842 19.1155,29.4452 19.1955,29.3992 C19.2305,29.3782 19.2655,29.3592 19.2985,29.3362 C19.3865,29.2752 19.4675,29.2042 19.5415,29.1242 C19.5565,29.1082 19.5735,29.0962 19.5875,29.0792 C19.5905,29.0762 19.5945,29.0732 19.5975,29.0692 L35.7585,9.6272 C36.2335,9.0562 36.2195,8.2252 35.7255,7.6712 L35.7255,7.6712 Z"
+                                      },
+                                      "style": {},
+                                      "children": [],
+                                      "metadata": {}
+                                    }
+                                  ],
+                                  "metadata": {}
+                                }
+                              ],
+                              "metadata": {}
+                            }
+                          ],
+                          "metadata": {}
+                        }
+                      ],
+                      "metadata": {
+                        "bounds": {
+                          "left": 140,
+                          "top": 498,
+                          "right": 540,
+                          "bottom": 798
+                        }
+                      }
+                    }
+                  ],
+                  "metadata": {},
+                  "name": "plug"
+                },
+                {
+                  "id": "5acd717e931",
                   "variantId": null,
                   "propertyName": "text",
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "Type safety",
+                  "value": "Link external designs",
                   "name": "override",
                   "children": []
                 },
+                {
+                  "id": "d38cee0d737",
+                  "variantId": null,
+                  "propertyName": "text",
+                  "targetIdPath": [
+                    "5acd717e402"
+                  ],
+                  "value": "Link basic CSS from your Sketch or Figma designs to Tandem components. ",
+                  "name": "override",
+                  "children": []
+                }
+              ],
+              "metadata": {},
+              "variant": {}
+            }
+          ],
+          "metadata": {}
+        },
+        {
+          "id": "5acd717e341",
+          "label": "features",
+          "is": "div",
+          "name": "element",
+          "attributes": {},
+          "style": {
+            "box-sizing": "border-box",
+            "display": "flex",
+            "width": "100%",
+            "max-width": "1400px",
+            "margin-right": "auto",
+            "margin-left": "auto",
+            "margin-top": "42px",
+            "justify-content": "space-between"
+          },
+          "children": [
+            {
+              "id": "5acd717e457",
+              "label": "Safety Feature",
+              "is": "5acd717e403",
+              "name": "component-instance",
+              "attributes": {},
+              "style": {
+                "box-sizing": "border-box",
+                "display": "inline-block"
+              },
+              "children": [
                 {
                   "slotId": "5acd717e564",
                   "id": "5acd717e623",
@@ -909,7 +1226,7 @@
                       },
                       "style": {
                         "display": "block",
-                        "height": "100px",
+                        "height": "100%",
                         "margin-right": "auto",
                         "margin-left": "auto"
                       },
@@ -928,13 +1245,24 @@
                   "name": "plug"
                 },
                 {
-                  "id": "5acd717e920",
+                  "id": "26fbff781175",
+                  "variantId": null,
+                  "propertyName": "text",
+                  "targetIdPath": [
+                    "5acd717e401"
+                  ],
+                  "value": "Safety tools\n",
+                  "name": "override",
+                  "children": []
+                },
+                {
+                  "id": "d38cee0d486",
                   "variantId": null,
                   "propertyName": "text",
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Design files come with type safety, so you can be sure that they're ",
+                  "value": "Tandem comes with tools for typed definition file generation, and visual regression testing to ensure that you build components safely.",
                   "name": "override",
                   "children": []
                 }
@@ -944,7 +1272,7 @@
             },
             {
               "id": "5acd717e459",
-              "label": "Feature",
+              "label": "Designed for scale",
               "is": "5acd717e403",
               "name": "component-instance",
               "attributes": {},
@@ -985,7 +1313,7 @@
                       },
                       "style": {
                         "display": "block",
-                        "height": "100px",
+                        "height": "100%",
                         "margin-right": "auto",
                         "margin-left": "auto"
                       },
@@ -1058,285 +1386,15 @@
                   "name": "plug"
                 },
                 {
-                  "id": "5acd717e928",
+                  "id": "d38cee0d543",
                   "variantId": null,
                   "propertyName": "text",
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Build any size web application. ",
+                  "value": "Covers most of your HTML & CSS creation, and can handle large project sizes. Take a look at the Tandem source code as an example.",
                   "name": "override",
                   "children": []
-                }
-              ],
-              "metadata": {},
-              "variant": {}
-            }
-          ],
-          "metadata": {}
-        },
-        {
-          "id": "5acd717e341",
-          "label": "features",
-          "is": "div",
-          "name": "element",
-          "attributes": {},
-          "style": {
-            "box-sizing": "border-box",
-            "display": "flex",
-            "width": "100%",
-            "max-width": "1400px",
-            "margin-right": "auto",
-            "margin-left": "auto",
-            "margin-top": "42px",
-            "justify-content": "space-between"
-          },
-          "children": [
-            {
-              "id": "5acd717e392",
-              "label": "Feature",
-              "is": "5acd717e403",
-              "name": "component-instance",
-              "attributes": {},
-              "style": {
-                "box-sizing": "border-box",
-                "display": "inline-block"
-              },
-              "children": [
-                {
-                  "slotId": "5acd717e564",
-                  "id": "5acd717e783",
-                  "children": [
-                    {
-                      "id": "5acd717e826",
-                      "is": "svg",
-                      "name": "element",
-                      "attributes": {
-                        "xmlns": "http://www.w3.org/2000/svg",
-                        "xmlns:xlink": "http://www.w3.org/1999/xlink",
-                        "viewBox": "0 0 37 30",
-                        "version": "1.1",
-                        "x": "0px",
-                        "y": "0px"
-                      },
-                      "style": {
-                        "display": "block",
-                        "height": "100px",
-                        "margin-right": "auto",
-                        "margin-left": "auto"
-                      },
-                      "children": [
-                        {
-                          "id": "5acd717e827",
-                          "is": "title",
-                          "name": "element",
-                          "attributes": {},
-                          "style": {},
-                          "children": [
-                            {
-                              "id": "5acd717e828",
-                              "name": "text",
-                              "label": "sketch",
-                              "value": "sketch",
-                              "style": {},
-                              "children": [],
-                              "metadata": {}
-                            }
-                          ],
-                          "metadata": {}
-                        },
-                        {
-                          "id": "5acd717e829",
-                          "is": "desc",
-                          "name": "element",
-                          "attributes": {},
-                          "style": {},
-                          "children": [
-                            {
-                              "id": "5acd717e830",
-                              "name": "text",
-                              "label": "Created with Sketch.",
-                              "value": "Created with Sketch.",
-                              "style": {},
-                              "children": [],
-                              "metadata": {}
-                            }
-                          ],
-                          "metadata": {}
-                        },
-                        {
-                          "id": "5acd717e831",
-                          "is": "g",
-                          "name": "element",
-                          "attributes": {
-                            "stroke": "none",
-                            "stroke-width": "1",
-                            "fill": "none",
-                            "fill-rule": "evenodd"
-                          },
-                          "style": {},
-                          "children": [
-                            {
-                              "id": "5acd717e832",
-                              "is": "g",
-                              "name": "element",
-                              "attributes": {
-                                "transform": "translate(-282.000000, -180.000000)",
-                                "fill": "#000000"
-                              },
-                              "style": {},
-                              "children": [
-                                {
-                                  "id": "5acd717e833",
-                                  "is": "g",
-                                  "name": "element",
-                                  "attributes": {
-                                    "transform": "translate(282.000000, 180.000000)"
-                                  },
-                                  "style": {},
-                                  "children": [
-                                    {
-                                      "id": "5acd717e834",
-                                      "is": "path",
-                                      "name": "element",
-                                      "attributes": {
-                                        "d": "M28.9155,7.1312 L29.2665,4.9272 L31.2285,7.1312 L28.9155,7.1312 Z M28.1295,10.1312 L31.4385,10.1312 L24.2745,18.7502 L28.1295,10.1312 Z M8.6125,10.1312 L12.4405,18.5422 L5.4495,10.1312 L8.6125,10.1312 Z M10.6505,5.9112 L10.2265,3.2442 L14.0355,3.2442 L10.6505,5.9112 Z M26.0765,5.8802 L22.7115,3.2442 L26.4965,3.2442 L26.0765,5.8802 Z M13.9495,7.1312 L18.3655,3.6522 L22.8085,7.1312 L13.9495,7.1312 Z M24.8435,10.1312 L18.4325,24.4642 L11.9095,10.1312 L24.8435,10.1312 Z M7.4815,5.0852 L7.8075,7.1312 L5.6605,7.1312 L7.4815,5.0852 Z M35.7255,7.6712 L29.5615,0.7472 C29.2765,0.4272 28.8695,0.2442 28.4405,0.2442 L18.3605,0.2442 L18.3595,0.2442 L8.4475,0.2442 C8.0195,0.2442 7.6125,0.4272 7.3275,0.7472 L1.1635,7.6712 C0.6695,8.2252 0.6555,9.0562 1.1295,9.6272 L17.2915,29.0692 C17.2955,29.0742 17.3005,29.0782 17.3045,29.0822 C17.3215,29.1032 17.3435,29.1182 17.3615,29.1372 C17.4325,29.2132 17.5095,29.2802 17.5935,29.3382 C17.6275,29.3622 17.6625,29.3812 17.6985,29.4022 C17.7785,29.4482 17.8615,29.4862 17.9475,29.5172 C17.9845,29.5302 18.0205,29.5442 18.0585,29.5542 C18.1835,29.5882 18.3125,29.6102 18.4445,29.6102 L18.4495,29.6102 C18.4545,29.6102 18.4585,29.6082 18.4635,29.6082 C18.5905,29.6072 18.7135,29.5862 18.8345,29.5532 C18.8725,29.5432 18.9085,29.5282 18.9455,29.5152 C19.0335,29.4842 19.1155,29.4452 19.1955,29.3992 C19.2305,29.3782 19.2655,29.3592 19.2985,29.3362 C19.3865,29.2752 19.4675,29.2042 19.5415,29.1242 C19.5565,29.1082 19.5735,29.0962 19.5875,29.0792 C19.5905,29.0762 19.5945,29.0732 19.5975,29.0692 L35.7585,9.6272 C36.2335,9.0562 36.2195,8.2252 35.7255,7.6712 L35.7255,7.6712 Z"
-                                      },
-                                      "style": {},
-                                      "children": [],
-                                      "metadata": {}
-                                    }
-                                  ],
-                                  "metadata": {}
-                                }
-                              ],
-                              "metadata": {}
-                            }
-                          ],
-                          "metadata": {}
-                        }
-                      ],
-                      "metadata": {
-                        "bounds": {
-                          "left": 140,
-                          "top": 498,
-                          "right": 540,
-                          "bottom": 798
-                        }
-                      }
-                    }
-                  ],
-                  "metadata": {},
-                  "name": "plug"
-                },
-                {
-                  "id": "5acd717e931",
-                  "variantId": null,
-                  "propertyName": "text",
-                  "targetIdPath": [
-                    "5acd717e401"
-                  ],
-                  "value": "Link design files",
-                  "name": "override",
-                  "children": []
-                },
-                {
-                  "id": "5acd717e932",
-                  "variantId": null,
-                  "propertyName": "text",
-                  "targetIdPath": [
-                    "5acd717e402"
-                  ],
-                  "value": "Link your Sketch or Figma designs into Tandem, and keep them as the source of truth for design",
-                  "name": "override",
-                  "children": []
-                }
-              ],
-              "metadata": {},
-              "variant": {}
-            },
-            {
-              "id": "5acd717e444",
-              "label": "Feature",
-              "is": "5acd717e403",
-              "name": "component-instance",
-              "attributes": {},
-              "style": {
-                "box-sizing": "border-box",
-                "display": "inline-block"
-              },
-              "children": [
-                {
-                  "id": "5acd717e445",
-                  "variantId": null,
-                  "propertyName": "text",
-                  "targetIdPath": [
-                    "5acd717e401"
-                  ],
-                  "value": "Easy visual debugging",
-                  "name": "override",
-                  "children": []
-                },
-                {
-                  "slotId": "5acd717e564",
-                  "id": "5acd717e903",
-                  "children": [
-                    {
-                      "id": "5acd717e908",
-                      "is": "svg",
-                      "name": "element",
-                      "attributes": {
-                        "xmlns": "http://www.w3.org/2000/svg",
-                        "xmlns:xlink": "http://www.w3.org/1999/xlink",
-                        "version": "1.1",
-                        "x": "0px",
-                        "y": "0px",
-                        "viewBox": "0 0 45 45",
-                        "enable-background": "new 0 0 45 45",
-                        "xml:space": "preserve"
-                      },
-                      "style": {
-                        "display": "block",
-                        "height": "100px",
-                        "margin-right": "auto",
-                        "margin-left": "auto"
-                      },
-                      "children": [
-                        {
-                          "id": "5acd717e909",
-                          "is": "path",
-                          "name": "element",
-                          "attributes": {
-                            "d": "M22.5,11.066c-8.463,0-15.848,4.601-19.801,11.435C6.652,29.334,14.037,33.934,22.5,33.934s15.847-4.6,19.801-11.433  C38.347,15.667,30.963,11.066,22.5,11.066z M22.5,31.379c-4.903,0-8.877-3.975-8.877-8.878c0-4.903,3.974-8.878,8.877-8.878  c4.902,0,8.878,3.975,8.878,8.878C31.378,27.404,27.402,31.379,22.5,31.379z"
-                          },
-                          "style": {},
-                          "children": [],
-                          "metadata": {}
-                        },
-                        {
-                          "id": "5acd717e910",
-                          "is": "path",
-                          "name": "element",
-                          "attributes": {
-                            "d": "M26.26,21.197c-1.357,0-2.457-1.1-2.457-2.455c0-0.826,0.411-1.554,1.035-1.998c-0.722-0.295-1.51-0.459-2.338-0.459  c-3.434,0-6.216,2.782-6.216,6.216c0,3.433,2.782,6.216,6.216,6.216s6.217-2.783,6.217-6.216c0-0.828-0.165-1.616-0.459-2.339  C27.813,20.787,27.086,21.197,26.26,21.197z"
-                          },
-                          "style": {},
-                          "children": [],
-                          "metadata": {}
-                        }
-                      ],
-                      "metadata": {
-                        "bounds": {
-                          "left": -623,
-                          "top": 846,
-                          "right": -223,
-                          "bottom": 1146
-                        }
-                      }
-                    }
-                  ],
-                  "metadata": {},
-                  "name": "plug"
                 }
               ],
               "metadata": {},
@@ -1344,7 +1402,7 @@
             },
             {
               "id": "5acd717e348",
-              "label": "Feature",
+              "label": "Not a code replacement",
               "is": "5acd717e403",
               "name": "component-instance",
               "attributes": {},
@@ -1360,18 +1418,18 @@
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "Compiles to anything",
+                  "value": "Not a code replacement",
                   "name": "override",
                   "children": []
                 },
                 {
-                  "id": "5acd717e922",
+                  "id": "d38cee0d720",
                   "variantId": null,
                   "propertyName": "text",
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Design files can be compiled to one of the many currently supported ",
+                  "value": "Building software is hard, and we believe that handwritten code is the best medium for most of that. Tandem only covers the visual parts of your application, and simple behavior.",
                   "name": "override",
                   "children": []
                 }
@@ -1555,10 +1613,10 @@
       ],
       "metadata": {
         "bounds": {
-          "left": 942,
+          "left": 808,
           "top": -2,
           "right": 1867,
-          "bottom": 1034
+          "bottom": 2672
         }
       },
       "variant": {}
@@ -1675,15 +1733,16 @@
       "is": "div",
       "style": {
         "box-sizing": "border-box",
-        "display": "inline-block",
+        "display": "flex",
         "width": "100%",
         "background": "var(--97080f5435)",
-        "max-width": "400px",
+        "max-width": "500px",
         "text-align": "center",
         "padding-left": "24px",
         "padding-top": "24px",
         "padding-right": "24px",
-        "padding-bottom": "24px"
+        "padding-bottom": "24px",
+        "flex-direction": "column"
       },
       "attributes": {},
       "id": "5acd717e217",
@@ -1696,9 +1755,10 @@
           "value": "Design",
           "style": {
             "color": "rgba(255, 255, 255, 1)",
-            "font-size": "32px",
+            "font-size": "24px",
             "display": "block",
-            "text-align": "center"
+            "text-align": "center",
+            "padding-bottom": "8px"
           },
           "children": [],
           "metadata": {},
@@ -1715,7 +1775,7 @@
           "value": "No need for Design to Code handoffs, Tandem allows you to\n build production-grade web components visually.",
           "style": {
             "color": "rgba(255, 255, 255, 1)",
-            "font-size": "18px",
+            "font-size": "14px",
             "text-align": "center"
           },
           "children": [],
@@ -1796,7 +1856,7 @@
           "style": {
             "box-sizing": "border-box",
             "display": "inline-block",
-            "height": "100px",
+            "height": "50px",
             "text-align": "center",
             "width": "100%",
             "margin-bottom": "8px"
@@ -1821,7 +1881,7 @@
                   },
                   "style": {
                     "display": "block",
-                    "height": "100px",
+                    "height": "100%",
                     "text-align": "left",
                     "margin-right": "auto",
                     "margin-left": "auto"
@@ -1862,9 +1922,10 @@
           "label": "Header",
           "value": "Title",
           "style": {
-            "font-size": "32px",
+            "font-size": "24px",
             "display": "block",
-            "text-align": "center"
+            "text-align": "center",
+            "padding-bottom": "8px"
           },
           "children": [],
           "metadata": {},
@@ -1882,7 +1943,7 @@
           "style": {
             "text-align": "center",
             "display": "block",
-            "font-size": "18px"
+            "font-size": "14px"
           },
           "children": [],
           "metadata": {},
