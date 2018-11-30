@@ -11,7 +11,32 @@
       "name": "component-instance",
       "attributes": {},
       "style": {},
-      "children": [],
+      "children": [
+        {
+          "id": "ce121366560",
+          "variantId": null,
+          "propertyName": "text",
+          "targetIdPath": [
+            "5acd717e348",
+            "5acd717e401"
+          ],
+          "value": "Just the view layer",
+          "name": "override",
+          "children": []
+        },
+        {
+          "id": "ce121366562",
+          "variantId": null,
+          "propertyName": "text",
+          "targetIdPath": [
+            "5acd717e457",
+            "5acd717e401"
+          ],
+          "value": "Safety as a priority",
+          "name": "override",
+          "children": []
+        }
+      ],
       "metadata": {
         "bounds": {
           "left": 3770,
@@ -1073,7 +1098,7 @@
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "Works with other designers",
+                  "value": "Works with other design tools",
                   "name": "override",
                   "children": []
                 },
@@ -1084,7 +1109,7 @@
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Link basic CSS from your Sketch or Figma designs to Tandem components. Other integrations are on the way to allow you to use the best design tool for the job.",
+                  "value": "Link basic CSS from your Sketch or Figma designs to Tandem components. ",
                   "name": "override",
                   "children": []
                 }
@@ -1141,7 +1166,7 @@
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "Safety tools",
+                  "value": "Safety as a priority",
                   "name": "override",
                   "children": []
                 },
@@ -1152,7 +1177,7 @@
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Typed definition file generation, and visual regression testing ensures that you build components that safely integrate with handwritten code. ",
+                  "value": "Typed definition file generation, isolated styling, and visual regression testing ensures that you build components that safely integrate with handwritten code. ",
                   "name": "override",
                   "children": []
                 }
@@ -1263,18 +1288,7 @@
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "Like a web inspector",
-                  "name": "override",
-                  "children": []
-                },
-                {
-                  "id": "5acd717e919",
-                  "variantId": null,
-                  "propertyName": "text",
-                  "targetIdPath": [
-                    "5acd717e402"
-                  ],
-                  "value": "Like a glorified web inspector, with  full transparency into HTML & CSS creation. \n",
+                  "value": "Transparent tooling",
                   "name": "override",
                   "children": []
                 },
@@ -1310,6 +1324,17 @@
                   ],
                   "metadata": {},
                   "name": "plug"
+                },
+                {
+                  "id": "ba8405d04852",
+                  "variantId": null,
+                  "propertyName": "text",
+                  "targetIdPath": [
+                    "5acd717e402"
+                  ],
+                  "value": "Tooling is based on native CSS & HTML functionality, so you can use your existing knowledge to build user interfaces. ",
+                  "name": "override",
+                  "children": []
                 }
               ],
               "metadata": {},
@@ -1335,7 +1360,7 @@
                   "targetIdPath": [
                     "5acd717e401"
                   ],
-                  "value": "Just the visuals",
+                  "value": "Just the view layer",
                   "name": "override",
                   "children": []
                 },
@@ -1379,7 +1404,7 @@
                   "targetIdPath": [
                     "5acd717e402"
                   ],
-                  "value": "Tandem is slimmed down to only cover simple HTML & CSS, and leaves more complex code to be written by hand.",
+                  "value": "Tandem only covers simple HTML, CSS, and simple behavior. Complex functionality can easily be added with handwritten code.",
                   "name": "override",
                   "children": []
                 }
