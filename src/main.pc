@@ -646,51 +646,17 @@
               "style": {
                 "overflow": "hidden",
                 "display": "block",
-                "height": "50vw",
-                "position": "relative"
+                "position": "relative",
+                "background-repeat": "no-repeat",
+                "background-size": "100%",
+                "background-position": "0px 0px",
+                "max-width": "1200px",
+                "background-image": "url(\"src/assets/screenshot-3.png\")",
+                "height": "500px",
+                "margin-right": "auto",
+                "margin-left": "auto"
               },
-              "children": [
-                {
-                  "id": "5acd717e205",
-                  "is": "img",
-                  "name": "element",
-                  "attributes": {
-                    "src": "assets/screenshot-4.png"
-                  },
-                  "style": {
-                    "display": "block",
-                    "min-width": "400px",
-                    "width": "100%"
-                  },
-                  "children": [],
-                  "metadata": {
-                    "bounds": {
-                      "left": 237,
-                      "top": 88,
-                      "right": 637,
-                      "bottom": 388
-                    }
-                  }
-                },
-                {
-                  "id": "75aaf2f5500",
-                  "label": "Element",
-                  "is": "div",
-                  "name": "element",
-                  "attributes": {},
-                  "style": {
-                    "box-sizing": "border-box",
-                    "display": "block",
-                    "width": "100%",
-                    "height": "100%",
-                    "position": "absolute",
-                    "left": "0px",
-                    "top": "0px"
-                  },
-                  "children": [],
-                  "metadata": {}
-                }
-              ],
+              "children": [],
               "metadata": {}
             }
           ],

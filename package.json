@@ -8,7 +8,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "paperclip-html-compiler": "^10.1.5"
+    "paperclip-static-html-compiler": "^10.1.10"
   },
   "devDependencies": {},
   "scripts": {
