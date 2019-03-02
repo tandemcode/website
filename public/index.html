@@ -1,0 +1,851 @@
+<html>
+ <head>
+  <title>
+   Build web components visually
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+   html, body {
+              margin: 0;
+              padding: 0;
+            }._d38cee0d1454{
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+}
+._bdb0841881{
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  font-size: 18px;
+}
+._bdb0841879{
+  font-family: Avenir Next;
+  font-weight: 500;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+}
+  ._ed8f7e18839 ._bdb0841881, ._ed8f7e18839._bdb0841881{
+  font-size: 24px;
+}
+._3b03e5e0563{
+  color: rgba(123, 123, 123, 1);
+}
+._97080f54201{
+  box-sizing: border-box;
+  display: block;
+  margin-right: 24px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+._36d2facb149{
+  font-family: Avenir Next;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid;
+  color: rgba(39, 39, 39, 1);
+}
+._97080f5443{
+  box-sizing: border-box;
+  display: block;
+  box-shadow: inset  0px 0px 0px 1px rgba(0,0,0,1);
+  background: rgba(255, 255, 255, 1);
+  width: 5px;
+  height: 5px;
+  transform: translate(-50%, -50%);
+}
+._5acd717e217{
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  background: rgba(39, 39, 39, 1);
+  max-width: 500px;
+  display: flex;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  flex-direction: column;
+}
+._5acd717e215{
+  font-family: Avenir Next;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+  display: block;
+  text-align: center;
+  padding-bottom: 8px;
+}
+._5acd717e216{
+  font-family: Avenir Next;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+  ._5acd717e268 ._5acd717e217, ._5acd717e268._5acd717e217{
+  margin-bottom: 64px;
+  text-align: center;
+}
+._5acd717e403{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 32px;
+  text-align: left;
+  max-width: 400px;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+._5acd717e524{
+  box-sizing: border-box;
+  display: flex;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 8px;
+  align-items: flex-end;
+}
+._5acd717e519{
+  display: block;
+  height: 100%;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+._5acd717e401{
+  font-family: Avenir Next;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  display: block;
+  text-align: center;
+  padding-bottom: 8px;
+}
+._5acd717e402{
+  font-family: Avenir Next;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  display: block;
+}
+._d38cee0d1374{
+  display: block;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+._d38cee0d1371{
+  display: block;
+}
+._bdb0841818{
+  box-sizing: border-box;
+  display: block;
+}
+._761e4a9437{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 24px;
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  flex-wrap: wrap;
+}
+._97080f54217{
+  white-space: nowrap;
+}
+._53df978a491{
+  box-sizing: border-box;
+  display: inline-block;
+}
+._97080f54226{
+  box-sizing: border-box;
+  display: inline-block;
+}
+._97080f54162{
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: 24px;
+}
+._761e4a9448{
+  box-sizing: border-box;
+  display: block;
+}
+._761e4a9450{
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+._97080f5438{
+  display: inline-block;
+  background: rgba(39, 39, 39, 1);
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  flex-grow: 0;
+  margin-bottom: 12px;
+  position: relative;
+}
+._97080f5450{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+._97080f5457{
+  position: absolute;
+}
+._97080f5460{
+  position: absolute;
+  left: 50%;
+}
+._97080f5463{
+  position: absolute;
+  left: 100%;
+}
+._97080f5466{
+  position: absolute;
+  left: 100%;
+  top: 50%;
+}
+._97080f5472{
+  position: absolute;
+  left: 100%;
+  top: 100%;
+}
+._97080f5475{
+  position: absolute;
+  left: 50%;
+  top: 100%;
+}
+._97080f5478{
+  position: absolute;
+  left: 0%;
+  top: 100%;
+}
+._97080f5445{
+  position: absolute;
+  left: 0%;
+  top: 50%;
+}
+._761e4a9456{
+  font-family: Avenir Next;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+}
+._26fbff78997{
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 12px;
+}
+._26fbff781002{
+  font-family: Avenir Next;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: rgba(39, 39, 39, 1);
+}
+._97080f54117{
+  box-sizing: border-box;
+  display: inline-block;
+}
+._d38cee0d1458{
+  border-top-left-radius: 99px;
+  font-family: Avenir Next;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
+  display: block;
+  text-decoration: none;
+  background: rgba(39, 39, 39, 1);
+  font-weight: 500;
+  border-top-right-radius: 99px;
+  border-bottom-left-radius: 99px;
+  border-bottom-right-radius: 99px;
+  padding-left: 22px;
+  padding-top: 6px;
+  padding-right: 24px;
+  padding-bottom: 6px;
+}
+._bdb0841880{
+  display: inline-block;
+  height: 1em;
+  padding-right: 12px;
+  font-size: unset;
+}
+._97080f54114{
+  box-sizing: border-box;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 0px;
+}
+._5acd717e208{
+  background-position: 0px 0px;
+  overflow: hidden;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  max-width: 1200px;
+  background-image: url(file:///Users/crcn/Developer/work/tandem/website/src/./assets/screenshot-3.png);
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+._5acd717e1013{
+  box-sizing: border-box;
+  display: block;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  background: rgba(39, 39, 39, 1);
+  z-index: 4;
+}
+._5acd717e1014{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+._5acd717e455{
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 42px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+._5acd717e444{
+  box-sizing: border-box;
+  display: inline-block;
+}
+._5acd717e908{
+  display: block;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+._5acd717e392{
+  box-sizing: border-box;
+  display: inline-block;
+}
+._d38cee0d1375{
+  height: 80%;
+}
+._5acd717e457{
+  box-sizing: border-box;
+  display: inline-block;
+}
+._5acd717e628{
+  display: block;
+  height: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+._5acd717e341{
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 42px;
+  justify-content: space-between;
+}
+._5acd717e459{
+  box-sizing: border-box;
+  display: inline-block;
+}
+._b0f2dc5b669{
+  display: block;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+._d38cee0d1349{
+  display: block;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+._5acd717e348{
+  box-sizing: border-box;
+  display: inline-block;
+}
+._d38cee0d1437{
+  display: block;
+  height: 100%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+._3b03e5e0504{
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  justify-content: space-between;
+}
+._3b03e5e0524{
+  font-family: Avenir Next;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: rgba(123, 123, 123, 1);
+}
+._3b03e5e0551{
+  display: inline-block;
+  letter-spacing: unset;
+}
+._3b03e5e0528{
+  display: inline-block;
+}
+._36d2facb352{
+  box-sizing: border-box;
+  display: none;
+  background: rgba(39, 39, 39, 1);
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+._36d2facb353{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+  justify-content: space-between;
+}
+  ._97080f54235 ._5acd717e267, ._97080f54235._5acd717e267{
+  width: 100%;
+}
+  ._97080f54235 ._36d2facb368, ._97080f54235._36d2facb368{
+  text-align: center;
+  flex-wrap: wrap;
+}
+  ._97080f54235 ._97080f54251, ._97080f54235._97080f54251{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+  ._97080f54235 ._97080f54237, ._97080f54235._97080f54237{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+}
+  ._97080f54235 ._5acd717e1091, ._97080f54235._5acd717e1091{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  ._97080f54235 ._97080f54316, ._97080f54235._97080f54316{
+  text-align: center;
+}
+  ._97080f54235 ._97080f54253, ._97080f54235._97080f54253{
+  margin-right: 0px;
+}
+  ._97080f54235 ._26fbff78996, ._97080f54235._26fbff78996{
+  justify-content: center;
+  flex-wrap: wrap;
+}
+  ._97080f54235 ._97080f54238, ._97080f54235._97080f54238{
+  text-align: left;
+}
+  ._97080f54235 ._26fbff78995, ._97080f54235._26fbff78995{
+  text-align: left;
+  align-items: unset;
+  align-content: unset;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  ._97080f54235 ._97080f54239, ._97080f54235._97080f54239{
+  width: unset;
+  text-align: left;
+}
+  ._97080f54235 ._36d2facb403, ._97080f54235._36d2facb403{
+  text-align: center;
+}
+  ._97080f54235 ._14212b0c142, ._97080f54235._14212b0c142{
+  text-align: center;
+}
+  ._97080f54235 ._97080f54315, ._97080f54235._97080f54315{
+  text-align: center;
+}
+  ._97080f54235 ._5acd717e213, ._97080f54235._5acd717e213{
+  width: unset;
+  position: relative;
+  display: none;
+}
+  ._97080f54235 ._36d2facb408, ._97080f54235._36d2facb408{
+  font-size: 24px;
+}
+._5acd717e1020{
+  text-align: center;
+}
+._3b03e5e0564{
+  color: rgba(123, 123, 123, 1);
+}
+@media all and (max-width: 500px){
+    ._26fbff78996{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    ._bdb0841881{
+    font-size: 24px;
+}
+    ._5acd717e267{
+    width: 100%;
+}
+    ._36d2facb368{
+    text-align: center;
+    flex-wrap: wrap;
+}
+    ._97080f54251{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+    ._97080f54237{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+}
+    ._5acd717e1091{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    ._97080f54316{
+    text-align: center;
+}
+    ._97080f54253{
+    margin-right: 0px;
+}
+    ._5acd717e217{
+    margin-bottom: 64px;
+    text-align: center;
+}
+    ._97080f54238{
+    text-align: left;
+}
+    ._26fbff78995{
+    text-align: left;
+    align-items: unset;
+    align-content: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    ._97080f54239{
+    width: unset;
+    text-align: left;
+}
+    ._36d2facb403{
+    text-align: center;
+}
+    ._14212b0c142{
+    text-align: center;
+}
+    ._97080f54315{
+    text-align: center;
+}
+    ._5acd717e213{
+    width: unset;
+    position: relative;
+    display: none;
+}
+    ._36d2facb408{
+    font-size: 24px;
+}
+}
+
+  </style>
+ </head>
+ <body>
+  <div class="_83e764631">
+   <div class="_bdb0841818">
+    <div class="_761e4a9437 _97080f54238">
+     <div class="_97080f54240 _97080f54251">
+      <div class="_bdb0841885 _97080f54239 _bdb0841881 _ed8f7e18842">
+       <img src="853f9820adde01095cc591aed688402d.png" class="_bdb0841880">
+       <span class="_bdb0841879">
+        Tandem
+       </span>
+      </div>
+     </div>
+     <div class="_97080f54217 _97080f54237">
+      <a href="https://groups.google.com/forum/#!forum/tandem-code" class="_53df978a491 _97080f54201">
+       <span class="_36d2facb149">
+        Discuss
+       </span>
+      </a>
+      <a href="mailto: hello@tandemcode.com" class="_97080f54226 _97080f54201">
+       <span class="_36d2facb149">
+        Contact
+       </span>
+      </a>
+      <a href="https://github.com/tandemcode/tandem" class="_97080f54162 _97080f54253 _97080f54201">
+       <span class="_36d2facb149">
+        GitHub
+       </span>
+      </a>
+     </div>
+    </div>
+    <div class="_761e4a9448">
+     <div class="_761e4a9450">
+      <div class="_97080f5438">
+       <div class="_97080f5450">
+        <div class="_97080f5457 _97080f5443">
+        </div>
+        <div class="_97080f5460 _97080f5443">
+        </div>
+        <div class="_97080f5463 _97080f5443">
+        </div>
+        <div class="_97080f5466 _97080f5443">
+        </div>
+        <div class="_97080f5472 _97080f5443">
+        </div>
+        <div class="_97080f5475 _97080f5443">
+        </div>
+        <div class="_97080f5478 _97080f5443">
+        </div>
+        <div class="_97080f5445 _97080f5443">
+        </div>
+       </div>
+       <span class="_761e4a9456">
+        Say goodbye to handwritten HTML & CSS
+       </span>
+      </div>
+      <div class="_26fbff78997">
+       <span class="_26fbff781002">
+        Tandem is a free & open source web component builder
+       </span>
+      </div>
+      <div class="_97080f54117">
+       <a href="https://tandemcode.us14.list-manage.com/subscribe/post?u=9366438be55d995ab1859780d&id=b05de12433" class="_d38cee0d1458">
+        <span class="_d38cee0d1454">
+         Sign up for early access
+        </span>
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="_97080f54114">
+    <div class="_5acd717e208 _5acd717e213">
+    </div>
+   </div>
+   <div class="_5acd717e1013">
+    <div class="_5acd717e1014 _5acd717e1091">
+     <div class="_5acd717e1015 _5acd717e217 _5acd717e270">
+      <span class="_5acd717e215">
+       Give designers control
+      </span>
+      <span class="_5acd717e216">
+       No need for design to code handoffs, Tandem allows you to safely build production-grade web components visually. Finally designers & coders can work together in the same codebase.
+      </span>
+     </div>
+     <div class="_5acd717e1016 _5acd717e217 _5acd717e270">
+      <span class="_5acd717e215">
+       Works with code
+      </span>
+      <span class="_5acd717e216">
+       Components can compile to PHP, React, static HTML, and many other languages, so you can easily integrate them into your existing project.
+      </span>
+     </div>
+     <div class="_5acd717e1018 _5acd717e217 _5acd717e270">
+      <span class="_5acd717e215">
+       Build any kind of app
+
+
+      </span>
+      <span class="_5acd717e1020 _5acd717e216">
+       Mobile, desktop, server-side, or anything else in between. Tandem can be used to build just about any kind of web application.
+      </span>
+     </div>
+    </div>
+   </div>
+   <div class="_5acd717e455 _26fbff78995">
+    <div class="_5acd717e444 _5acd717e403">
+     <div class="_5acd717e524">
+      <svg viewBox="0 0 45 45" version="1.1" x="0px" y="0px" class="_5acd717e908 _d38cee0d1315" enableBackground="new 0 0 45 45">
+       <g transform="translate(0,-1020.3622)" class="_d38cee0d1311">
+        <text x="12" y="1036.3622" fontStyle="normal" fontWeight="normal" fontSize="11.25px" lineHeight="125%" fontFamily="Sans" fill="#000000" fillOpacity="1" stroke="none" class="_d38cee0d1312">
+         <tspan x="12" y="1036.3622" class="_d38cee0d1313">
+         </tspan>
+        </text>
+        <path d="m 5.50391,1022.3617 c -0.27613,0 -0.49997,0.2239 -0.5,0.5 l 0,2.5 5,0 0,1 -5,0 0,2 4,0 0,1 -4,0 0,2 5,0 0,1 -5,0 0,2 4,0 0,1 -4,0 0,2 5,0 0,1 -5,0 0,2 4,0 0,1 -4,0 0,2 5,0 0,1 -5,0 0,2 4,0 0,1 -4,0 0,2.5 c 3e-5,0.2761 0.22387,0.5 0.5,0.5 l 8,0 c 0.27613,0 0.49997,-0.2239 0.5,-0.5 l 0,-27 c -3e-5,-0.2761 -0.22387,-0.5 -0.5,-0.5 l -8,0 z m 15.49218,0 c -1.09935,0 -2,0.9006 -2,2 l 0,2 8,0 0,-2 c 0,-1.0994 -0.90064,-2 -2,-2 l -4,0 z m -2,5 0,15.1699 2.63868,-1.1191 c 0.063,-0.026 0.13083,-0.04 0.19921,-0.039 0.11746,9e-4 0.23082,0.043 0.32032,0.1192 l 1.9375,1.6562 2.90429,-0.9687 0,-14.8184 -8,0 z m 2,1 1,0 0,12 -1,0 0,-12 z m 0.74415,14.0918 -2.48243,1.0527 3.29102,6.5801 c 0.18428,0.3686 0.71025,0.3686 0.89453,0 l 3.39844,-6.7969 -2.69727,0.8965 c -0.16637,0.057 -0.35026,0.022 -0.48437,-0.092 l -1.91992,-1.6405 z" class="_d38cee0d1314">
+        </path>
+       </g>
+      </svg>
+     </div>
+     <span class="_5acd717e401">
+      Build UIs with precision
+     </span>
+     <span class="_5acd717e402">
+      Color pickers, measurement tooling, responsive design, zooming, and other features are there to help you create UIs more precisely. 
+     </span>
+    </div>
+    <div class="_5acd717e392 _5acd717e403">
+     <div class="_5acd717e524">
+      <svg viewBox="0 0 37 30" version="1.1" x="0px" y="0px" class="_d38cee0d1375 _d38cee0d1374">
+       <title class="_d38cee0d1366">
+        sketch
+       </title>
+       <desc class="_d38cee0d1368">
+        Created with Sketch.
+       </desc>
+       <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" class="_d38cee0d1370">
+        <g transform="translate(-282.000000, -180.000000)" fill="#000000" class="_d38cee0d1371">
+         <g transform="translate(282.000000, 180.000000)" class="_d38cee0d1372">
+          <path d="M28.9155,7.1312 L29.2665,4.9272 L31.2285,7.1312 L28.9155,7.1312 Z M28.1295,10.1312 L31.4385,10.1312 L24.2745,18.7502 L28.1295,10.1312 Z M8.6125,10.1312 L12.4405,18.5422 L5.4495,10.1312 L8.6125,10.1312 Z M10.6505,5.9112 L10.2265,3.2442 L14.0355,3.2442 L10.6505,5.9112 Z M26.0765,5.8802 L22.7115,3.2442 L26.4965,3.2442 L26.0765,5.8802 Z M13.9495,7.1312 L18.3655,3.6522 L22.8085,7.1312 L13.9495,7.1312 Z M24.8435,10.1312 L18.4325,24.4642 L11.9095,10.1312 L24.8435,10.1312 Z M7.4815,5.0852 L7.8075,7.1312 L5.6605,7.1312 L7.4815,5.0852 Z M35.7255,7.6712 L29.5615,0.7472 C29.2765,0.4272 28.8695,0.2442 28.4405,0.2442 L18.3605,0.2442 L18.3595,0.2442 L8.4475,0.2442 C8.0195,0.2442 7.6125,0.4272 7.3275,0.7472 L1.1635,7.6712 C0.6695,8.2252 0.6555,9.0562 1.1295,9.6272 L17.2915,29.0692 C17.2955,29.0742 17.3005,29.0782 17.3045,29.0822 C17.3215,29.1032 17.3435,29.1182 17.3615,29.1372 C17.4325,29.2132 17.5095,29.2802 17.5935,29.3382 C17.6275,29.3622 17.6625,29.3812 17.6985,29.4022 C17.7785,29.4482 17.8615,29.4862 17.9475,29.5172 C17.9845,29.5302 18.0205,29.5442 18.0585,29.5542 C18.1835,29.5882 18.3125,29.6102 18.4445,29.6102 L18.4495,29.6102 C18.4545,29.6102 18.4585,29.6082 18.4635,29.6082 C18.5905,29.6072 18.7135,29.5862 18.8345,29.5532 C18.8725,29.5432 18.9085,29.5282 18.9455,29.5152 C19.0335,29.4842 19.1155,29.4452 19.1955,29.3992 C19.2305,29.3782 19.2655,29.3592 19.2985,29.3362 C19.3865,29.2752 19.4675,29.2042 19.5415,29.1242 C19.5565,29.1082 19.5735,29.0962 19.5875,29.0792 C19.5905,29.0762 19.5945,29.0732 19.5975,29.0692 L35.7585,9.6272 C36.2335,9.0562 36.2195,8.2252 35.7255,7.6712 L35.7255,7.6712 Z" class="_d38cee0d1373">
+          </path>
+         </g>
+        </g>
+       </g>
+      </svg>
+     </div>
+     <span class="_5acd717e401">
+      Works with other design tools
+     </span>
+     <span class="_5acd717e402">
+      Link basic CSS from your Sketch or Figma designs to Tandem components. 
+     </span>
+    </div>
+    <div class="_5acd717e457 _5acd717e403">
+     <div class="_5acd717e524">
+      <img src="7fceb3ce912d947edfb847588376a738.png" class="_5acd717e628">
+     </div>
+     <span class="_5acd717e401">
+      Safety as a priority
+     </span>
+     <span class="_5acd717e402">
+      Typed definition file generation, isolated styling, and visual regression testing ensures that you build components that safely integrate with handwritten code. 
+     </span>
+    </div>
+   </div>
+   <div class="_5acd717e341 _26fbff78996">
+    <div class="_5acd717e459 _5acd717e403">
+     <div class="_5acd717e524">
+      <svg version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enableBackground="new 0 0 100 100" class="_b0f2dc5b669 _b0f2dc5b837">
+       <g class="_b0f2dc5b832">
+        <g class="_b0f2dc5b833">
+         <path fill="#000000" d="M83.028,37.688C78.266,24.012,65.25,14.167,49.972,14.167c-17.107,0-31.378,12.342-34.401,28.586    l-2.063-2.063c-1.953-1.952-5.118-1.952-7.071,0c-1.953,1.953-1.953,5.119,0,7.071l10.607,10.607    c0.977,0.977,2.256,1.465,3.536,1.465s2.559-0.488,3.536-1.465l10.607-10.607c1.953-1.953,1.953-5.119,0-7.071    c-1.953-1.952-5.118-1.952-7.071,0l-1.753,1.753c2.945-10.529,12.619-18.276,24.074-18.276c10.484,0,19.476,6.49,23.184,15.661    l0.905-0.905C76.491,36.492,80.171,36.085,83.028,37.688z" class="_b0f2dc5b834">
+         </path>
+        </g>
+        <g class="_b0f2dc5b835">
+         <path fill="#000000" d="M16.972,62.312c4.763,13.677,17.778,23.521,33.057,23.521c17.107,0,31.379-12.342,34.4-28.586l2.064,2.062    c1.953,1.953,5.117,1.953,7.07,0c1.953-1.952,1.953-5.118,0-7.07L82.956,41.632c-0.977-0.977-2.256-1.465-3.535-1.465    s-2.559,0.488-3.535,1.465L65.278,52.239c-1.953,1.952-1.953,5.118,0,7.07c1.953,1.953,5.117,1.953,7.07,0l1.754-1.753    c-2.945,10.528-12.619,18.276-24.074,18.276c-10.484,0-19.476-6.49-23.184-15.66l-0.905,0.904    C23.509,63.508,19.829,63.915,16.972,62.312z" class="_b0f2dc5b836">
+         </path>
+        </g>
+       </g>
+      </svg>
+     </div>
+     <span class="_5acd717e401">
+      Reusable user interfaces
+     </span>
+     <span class="_5acd717e402">
+      Components are decoupled from code, so you can reuse them across multiple platforms and languages. 
+     </span>
+    </div>
+    <div class="_5acd717e456 _5acd717e403">
+     <div class="_5acd717e524">
+      <svg version="1.1" x="0px" y="0px" viewBox="0 0 45 45" enableBackground="new 0 0 45 45" class="_d38cee0d1349 _d38cee0d1345">
+       <path d="M22.5,11.066c-8.463,0-15.848,4.601-19.801,11.435C6.652,29.334,14.037,33.934,22.5,33.934s15.847-4.6,19.801-11.433  C38.347,15.667,30.963,11.066,22.5,11.066z M22.5,31.379c-4.903,0-8.877-3.975-8.877-8.878c0-4.903,3.974-8.878,8.877-8.878  c4.902,0,8.878,3.975,8.878,8.878C31.378,27.404,27.402,31.379,22.5,31.379z" class="_d38cee0d1343">
+       </path>
+       <path d="M26.26,21.197c-1.357,0-2.457-1.1-2.457-2.455c0-0.826,0.411-1.554,1.035-1.998c-0.722-0.295-1.51-0.459-2.338-0.459  c-3.434,0-6.216,2.782-6.216,6.216c0,3.433,2.782,6.216,6.216,6.216s6.217-2.783,6.217-6.216c0-0.828-0.165-1.616-0.459-2.339  C27.813,20.787,27.086,21.197,26.26,21.197z" class="_d38cee0d1344">
+       </path>
+      </svg>
+     </div>
+     <span class="_5acd717e401">
+      Transparent tooling
+     </span>
+     <span class="_5acd717e402">
+      Tooling is based on native CSS & HTML functionality, so you can use your existing knowledge to build user interfaces. 
+     </span>
+    </div>
+    <div class="_5acd717e348 _5acd717e403">
+     <div class="_5acd717e524">
+      <svg viewBox="0 0 60 52" version="1.1" x="0px" y="0px" class="_d38cee0d1437 _ed8f7e18780">
+       <title class="_ed8f7e18769">
+        19 -Painting- (Solid)
+       </title>
+       <desc class="_ed8f7e18771">
+        Created with Sketch.
+       </desc>
+       <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" class="_ed8f7e18773">
+        <g transform="translate(-1080.000000, -494.000000)" fill="#000000" class="_ed8f7e18774">
+         <g transform="translate(1080.000000, 494.000000)" class="_ed8f7e18775">
+          <path d="M56,50.0045 C55.316,50.0045 54.687,49.6545 54.315,49.0695 C54.126,48.7705 53.802,48.6045 53.47,48.6045 C53.303,48.6045 53.134,48.6465 52.979,48.7345 C51.861,49.3655 50.521,48.7845 50.126,47.6695 C49.984,47.2715 49.606,47.0045 49.184,47.0045 L10.816,47.0045 C10.394,47.0045 10.016,47.2715 9.874,47.6695 C9.479,48.7845 8.14,49.3655 7.021,48.7345 C6.558,48.4705 5.969,48.6195 5.685,49.0695 C5.313,49.6545 4.684,50.0045 4,50.0045 C2.897,50.0045 2,49.1075 2,48.0045 C2,47.3205 2.35,46.6905 2.936,46.3195 C3.387,46.0335 3.533,45.4445 3.27,44.9805 C3.091,44.6655 3,44.3375 3,44.0045 C3,43.1675 3.536,42.4145 4.335,42.1295 C4.733,41.9885 5,41.6105 5,41.1885 L5,10.8205 C5,10.3985 4.733,10.0205 4.335,9.8795 C3.536,9.5945 3,8.8415 3,8.0045 C3,7.6715 3.091,7.3435 3.27,7.0285 C3.533,6.5645 3.387,5.9755 2.936,5.6895 C2.35,5.3185 2,4.6885 2,4.0045 C2,2.9015 2.897,2.0045 4,2.0045 C4.684,2.0045 5.313,2.3545 5.685,2.9395 C5.969,3.3885 6.558,3.5365 7.021,3.2745 C8.14,2.6435 9.479,3.2245 9.874,4.3395 C10.016,4.7375 10.394,5.0045 10.816,5.0045 L49.184,5.0045 C49.606,5.0045 49.984,4.7375 50.126,4.3395 C50.521,3.2245 51.861,2.6435 52.979,3.2745 C53.442,3.5365 54.03,3.3885 54.315,2.9395 C54.687,2.3545 55.316,2.0045 56,2.0045 C57.103,2.0045 58,2.9015 58,4.0045 C58,4.6885 57.65,5.3185 57.064,5.6895 C56.613,5.9755 56.467,6.5645 56.73,7.0285 C56.909,7.3435 57,7.6715 57,8.0045 C57,8.8415 56.464,9.5945 55.665,9.8795 C55.267,10.0205 55,10.3985 55,10.8205 L55,41.1885 C55,41.6105 55.267,41.9885 55.665,42.1295 C56.464,42.4145 57,43.1675 57,44.0045 C57,44.3375 56.909,44.6655 56.73,44.9805 C56.467,45.4445 56.613,46.0335 57.064,46.3195 C57.65,46.6905 58,47.3205 58,48.0045 C58,49.1075 57.103,50.0045 56,50.0045 M59,44.0045 C59,42.5695 58.22,41.2595 57,40.5535 L57,11.4555 C58.22,10.7495 59,9.4395 59,8.0045 C59,7.6055 58.939,7.2145 58.818,6.8355 C59.569,6.0935 60,5.0835 60,4.0045 C60,1.7985 58.206,0.0045 56,0.0045 C54.921,0.0045 53.911,0.4345 53.169,1.1855 C52.789,1.0655 52.398,1.0045 52,1.0045 C50.564,1.0045 49.254,1.7845 48.549,3.0045 L11.451,3.0045 C10.746,1.7845 9.436,1.0045 8,1.0045 C7.602,1.0045 7.211,1.0655 6.831,1.1855 C6.089,0.4345 5.079,0.0045 4,0.0045 C1.794,0.0045 0,1.7985 0,4.0045 C0,5.0835 0.431,6.0935 1.182,6.8355 C1.061,7.2145 1,7.6055 1,8.0045 C1,9.4395 1.78,10.7495 3,11.4555 L3,40.5535 C1.78,41.2595 1,42.5695 1,44.0045 C1,44.4035 1.061,44.7945 1.182,45.1735 C0.431,45.9155 0,46.9255 0,48.0045 C0,50.2105 1.794,52.0045 4,52.0045 C5.079,52.0045 6.089,51.5745 6.831,50.8235 C7.211,50.9435 7.602,51.0045 8,51.0045 C9.436,51.0045 10.746,50.2245 11.451,49.0045 L48.549,49.0045 C49.254,50.2245 50.564,51.0045 52,51.0045 C52.398,51.0045 52.789,50.9435 53.169,50.8235 C53.911,51.5745 54.921,52.0045 56,52.0045 C58.206,52.0045 60,50.2105 60,48.0045 C60,46.9255 59.569,45.9155 58.818,45.1735 C58.939,44.7945 59,44.4035 59,44.0045" class="_ed8f7e18776">
+          </path>
+          <path d="M41,19.0045 C42.103,19.0045 43,18.1075 43,17.0045 C43,15.9015 42.103,15.0045 41,15.0045 C39.897,15.0045 39,15.9015 39,17.0045 C39,18.1075 39.897,19.0045 41,19.0045" class="_ed8f7e18777">
+          </path>
+          <path d="M32.0469,34.0587 C31.8529,34.3317 31.5699,34.4897 31.1969,34.4767 C30.8619,34.4647 30.5549,34.2857 30.3799,33.9987 L22.9999,21.9227 L13.7829,37.0047 L46.0569,37.0047 L37.9999,25.7247 L32.0469,34.0587 Z" class="_ed8f7e18778">
+          </path>
+          <path d="M48.8896,38.4621 C48.7176,38.7951 48.3746,39.0041 47.9996,39.0041 L11.9996,39.0041 C11.6386,39.0041 11.3046,38.8091 11.1276,38.4941 C10.9516,38.1781 10.9576,37.7921 11.1466,37.4831 L22.1466,19.4831 C22.5096,18.8881 23.4906,18.8881 23.8536,19.4831 L31.2986,31.6661 L37.1866,23.4231 C37.5616,22.8971 38.4386,22.8971 38.8136,23.4231 L48.8136,37.4231 C49.0316,37.7281 49.0606,38.1291 48.8896,38.4621 M35.9996,16.0041 L37.1426,16.0041 C37.2366,15.6411 37.3806,15.3011 37.5666,14.9851 L36.7576,14.1761 C36.3676,13.7851 36.3676,13.1521 36.7576,12.7621 C37.1486,12.3711 37.7816,12.3711 38.1716,12.7621 L38.9806,13.5711 C39.2966,13.3851 39.6366,13.2411 39.9996,13.1471 L39.9996,12.0041 C39.9996,11.4521 40.4476,11.0041 40.9996,11.0041 C41.5526,11.0041 41.9996,11.4521 41.9996,12.0041 L41.9996,13.1471 C42.3636,13.2411 42.7026,13.3851 43.0196,13.5711 L43.8276,12.7621 C44.2186,12.3711 44.8516,12.3711 45.2426,12.7621 C45.6326,13.1521 45.6326,13.7851 45.2426,14.1761 L44.4336,14.9851 C44.6186,15.3011 44.7636,15.6411 44.8576,16.0041 L45.9996,16.0041 C46.5526,16.0041 46.9996,16.4521 46.9996,17.0041 C46.9996,17.5571 46.5526,18.0041 45.9996,18.0041 L44.8576,18.0041 C44.7636,18.3681 44.6186,18.7081 44.4336,19.0241 L45.2426,19.8331 C45.6326,20.2241 45.6326,20.8571 45.2426,21.2471 C45.0466,21.4421 44.7906,21.5401 44.5356,21.5401 C44.2796,21.5401 44.0236,21.4421 43.8276,21.2471 L43.0196,20.4381 C42.7026,20.6241 42.3636,20.7681 41.9996,20.8621 L41.9996,22.0041 C41.9996,22.5571 41.5526,23.0041 40.9996,23.0041 C40.4476,23.0041 39.9996,22.5571 39.9996,22.0041 L39.9996,20.8621 C39.6366,20.7681 39.2966,20.6241 38.9806,20.4381 L38.1716,21.2471 C37.9766,21.4421 37.7206,21.5401 37.4646,21.5401 C37.2086,21.5401 36.9526,21.4421 36.7576,21.2471 C36.3676,20.8571 36.3676,20.2241 36.7576,19.8331 L37.5666,19.0241 C37.3806,18.7081 37.2366,18.3681 37.1426,18.0041 L35.9996,18.0041 C35.4476,18.0041 34.9996,17.5571 34.9996,17.0041 C34.9996,16.4521 35.4476,16.0041 35.9996,16.0041 M51.9996,7.0041 L7.9996,7.0041 C7.4476,7.0041 6.9996,7.4521 6.9996,8.0041 L6.9996,44.0041 C6.9996,44.5571 7.4476,45.0041 7.9996,45.0041 L51.9996,45.0041 C52.5526,45.0041 52.9996,44.5571 52.9996,44.0041 L52.9996,8.0041 C52.9996,7.4521 52.5526,7.0041 51.9996,7.0041" class="_ed8f7e18779">
+          </path>
+         </g>
+        </g>
+       </g>
+      </svg>
+     </div>
+     <span class="_5acd717e401">
+      Just the view layer
+     </span>
+     <span class="_5acd717e402">
+      Tandem only covers simple HTML, CSS, and simple behavior. Complex functionality can easily be added with handwritten code.
+     </span>
+    </div>
+   </div>
+   <div class="_3b03e5e0504">
+    <span class="_3b03e5e0524">
+     © Tandem Code
+    </span>
+    <div class="_3b03e5e0538">
+     <a href="https://tandemcode.us14.list-manage.com/subscribe/post?u=9366438be55d995ab1859780d&id=b05de12433" class="_3b03e5e0551 _97080f54201">
+      <span class="_3b03e5e0563 _36d2facb149">
+       Sign up
+
+      </span>
+     </a>
+     <a href="mailto: hello@tandemcode.com" class="_3b03e5e0528 _97080f54201">
+      <span class="_3b03e5e0564 _36d2facb149">
+       Contact
+      </span>
+     </a>
+    </div>
+   </div>
+   <div class="_36d2facb352">
+    <div class="_36d2facb353 _36d2facb368">
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
