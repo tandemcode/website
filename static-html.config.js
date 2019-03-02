@@ -1,7 +1,7 @@
 const fs = require("fs")
 
 module.exports = {
-	outputDirectory: "public",
+	outputDirectory: "docs",
 	project: JSON.parse(fs.readFileSync(__dirname + "/app.tdproject", "utf8")),
 	pages: [
 		{
